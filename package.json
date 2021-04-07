@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/martinrol/marox-dev/issues"
   },
-  "homepage": "https://github.com/martinrol/marox-dev#readme"
+  "homepage": "https://github.com/martinrol/marox-dev#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0"
+  }
 }
