@@ -1,0 +1,61 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 920px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.Home__intro {
+    width: 90%;
+}
+
+.Home__intro h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--light);
+}
+
+.Home__intro span {
+    color: var(--blue);
+}
+
+.Home__intro span:last-child {
+    color: var(--light);
+    font-weight: 300;
+}
+
+.Home__intro p {
+    margin-top: 11px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--light);
+}
+
+.Home__social {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+}
+
+.Home__social a {
+    color: var(--green);
+}
+
+.Home__button {
+    width: max-content;
+    height: 40px;
+    margin-top: 33px;
+    padding: 8px;
+    border: 2px solid var(--pink);
+}
+
+.Home__button a {
+    font-size: 1.6rem;
+    font-family: 500;
+    color: white;
+}
