@@ -2,9 +2,11 @@
 
 :root {
     --dark: #222831;
+    --moreDark: #191d24;
     --medium: #393e46;
+    --lightGray: #b1bbcc;
     --blue: #00adb5;
-    --light: #eeeeee:
+    --light: #eeeeee;
     --green: #30e3ca;
     --pink: #f85f73;
 }
@@ -20,10 +22,19 @@ html {
     font-family: 'Lexend', sans-serif;
 }
 
+body {
+    background-color: var(--medium);
+}
+
 li {
     list-style: none;
 }
 
 a {
     text-decoration: none;
+}
+#app {
+    width: 100%;
+    min-width: 320px;
+    height: max-content;
 }

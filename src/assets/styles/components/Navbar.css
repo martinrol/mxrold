@@ -1,0 +1,50 @@
+.Navbar {
+    width: max-content;
+    height: 100vh;
+    background-color: var(--dark);
+    /* box-shadow: -5px 0px 41px 0px #00adb5; */
+}
+
+.Navbar__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+    background-color: var(--moreDark);
+}
+
+.Navbar__logo a {
+    font-size: 2.3rem;
+    color: var(--pink);
+}
+
+.Navbar__links {
+    width: 100%;
+    height: 75%;
+}
+
+.Navbar__links nav {
+    width: 100%;
+    height: max-content;
+}
+
+.Navbar__links ul {
+    width: 100%;
+}
+
+.Navbar__links li {
+    padding: 10px 30px;
+    border-bottom: 1px solid var(--lightGray);
+}
+
+.Navbar__links a {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--light);
+    transition: all .3s ease-in-out;
+}
+
+.Navbar__links a:hover {
+    color: var(--blue);
+}
