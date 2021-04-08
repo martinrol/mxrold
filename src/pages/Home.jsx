@@ -1,12 +1,9 @@
 import React from 'react'
 import { FiGithub, FiTwitter, FiLinkedin, FiInstagram } from 'react-icons/fi'
 import '../assets/styles/components/Home.css'
-import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <>
-    <Navbar />
     <section className="Home">
       <div className="Home__intro">
         <h1><span>Hola, <br /> soy Martín Roldán, </span> <br /> <span>Frontend Developer</span></h1>
@@ -30,7 +27,6 @@ const Home = () => {
         <a href="/contacto">Contactame</a>
       </div>
     </section>
-    </>
   )
 }
 
