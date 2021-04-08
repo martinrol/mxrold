@@ -1,72 +1,69 @@
 .btn {
-    
-    width: 100%;
-    height: 35px;
-  }
+  width: 100%;
+  height: 35px;
+}
  
-  .btn a {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    max-width: 300px;
-    padding: 15px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    letter-spacing: 2px;
-    color: var(--light);
-    border: 2px solid var(--lightGray);
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-  }
+.btn a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 250px;
+  padding: 15px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: var(--light);
+  border: 2px solid var(--lightGray);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
   
-  span {
-    position: relative;
-    z-index: 3;
-  }
+span {
+  position: relative;
+  z-index: 3;
+}
   
-  .btn a:hover::before {
-    transform: scaleY(0);
-  }
+.btn a:hover::before {
+  transform: scaleY(0);
+}
   
+.btn a:hover::after {
+  transform: scaleX(0);
+}
   
-  .btn a:hover::after {
-    transform: scaleX(0);
-  }
-  
-  
-  .btn a {
-    color: var(--light);
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .btn a:hover {
-    color: var(--pink);
-    border: 2px solid var(--pink);
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .btn a::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--pink);
-    transition: all 0.5s ease-in-out;
-    transform: scaleY(1);
-  }
-  
-  .btn a::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--pink);
-    transition: all 0.5s ease-in-out;
-    transform: scaleX(1);
-  }
+.btn a {
+  color: var(--light);
+  transition: all 0.5s ease-in-out;
+}
+
+.btn a:hover {
+  color: var(--pink);
+  border: 2px solid var(--pink);
+  transition: all 0.5s ease-in-out;
+}
+
+.btn a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--pink);
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--pink);
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
  

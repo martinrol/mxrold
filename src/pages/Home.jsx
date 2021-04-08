@@ -4,7 +4,8 @@ import Button from '../components/Button'
 import '../assets/styles/components/Home.css'
 
 const Home = () => {
-  const textMessage = 'Contactame!'
+  const textMessage = 'Contactame'
+  const rute = '/contacto'
 
   return (
     <section className='Home'>
@@ -27,7 +28,7 @@ const Home = () => {
         </a>
       </div>
       <div className='Home__button'>
-        <Button text={textMessage} />
+        <Button text={textMessage} rute={rute} />
       </div>
     </section>
   )
