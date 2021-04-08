@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: -1;
     width: 100%;
     max-width: 920px;
     height: 100vh;

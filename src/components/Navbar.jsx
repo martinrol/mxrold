@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FiArrowDown, FiArrowUp } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 import '../assets/styles/components/Navbar.css'
 
 const Navbar = () => {
@@ -17,26 +18,26 @@ const Navbar = () => {
       <div className={!open ? "Navbar close" : "Navbar open"}>
         <div className='Navbar__logo'>
           <figure>
-            <a href='/'>Logo
+            <Link to='/'>Logo
               <img src='' alt='' />
-            </a>
+            </Link>
           </figure>
         </div>
         <div className='Navbar__links'>
           <nav className='Navbar__links-nav'>
             <ul>
-              <a href='/acerca'>
+              <Link to='/acerca'>
                 <li>Acerca</li>
-              </a>
-              <a href='/proyectos'>
+              </Link>
+              <Link to='/proyectos'>
                 <li>Proyectos</li>
-              </a>
-              <a href='/blog'>
+              </Link>
+              <Link to='/blog'>
                 <li>Blog</li>
-              </a>
-              <a href='/contacto'>
+              </Link>
+              <Link to='/contacto'>
                 <li>Contacto</li>
-              </a>
+              </Link>
             </ul>
           </nav>
         </div>
