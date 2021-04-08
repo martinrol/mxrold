@@ -32,9 +32,25 @@ li {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
+
 #app {
+    display: block;
     width: 100%;
     min-width: 320px;
-    height: max-content;
+    height: 100vh;
+    overflow: hidden;
+}
+
+button:focus, a:focus {
+    padding: 3px;
+    border: 2px dashed var(--dark);
+}
+
+@media screen and (min-width: 767px) {
+    #app {
+        display: flex;
+        height: max-content;
+    }
 }
