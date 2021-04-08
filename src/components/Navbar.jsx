@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import '../assets/styles/components/Navbar.css'
 
 const Navbar = () => {
-  const [ open, setOpen ] = useState(true)
+  const [open, setOpen] = useState(true)
 
   const handleClick = () => {
     setOpen(!open)
@@ -12,14 +12,14 @@ const Navbar = () => {
 
   return (
     <>
-      <button className="btn-navbar" type="button" onClick={handleClick}>
-        {!open ? <FiArrowDown size="26px"/> : <FiArrowUp size="26px"/>}
+      <button className='btn-navbar' type='button' onClick={handleClick}>
+        {!open ? <FiArrowDown size='26px' /> : <FiArrowUp size='26px' />}
       </button>
-      <div className={!open ? "Navbar close" : "Navbar open"}>
+      <div className={!open ? 'Navbar close' : 'Navbar open'}>
         <div className='Navbar__logo'>
           <figure>
             <Link to='/'>Logo
-              <img src='' alt='' />
+              {/* <img src='' alt='' /> */}
             </Link>
           </figure>
         </div>

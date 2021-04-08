@@ -47,15 +47,6 @@
 }
 
 .Home__button {
-    width: max-content;
-    height: 40px;
-    margin-top: 33px;
-    padding: 8px;
-    border: 2px solid var(--pink);
-}
-
-.Home__button a {
-    font-size: 1.6rem;
-    font-family: 500;
-    color: white;
+    width: 90%;
+    margin-top: 36px;
 }
