@@ -1,27 +1,22 @@
 .btn-navbar {
-    z-index: 0;
     position: absolute;
     top: 0;
-    left: calc(50% - 45px);
-    width: 90px;
-    height: 50px;
+    left: calc(100% - 80px);
+    width: 80px;
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 20px;
     background-color: var(--blue);
     color: var(--light);
-    clip-path: polygon(50% 0, 0 100%, 100% 100%);
-    transform: rotate(180deg);
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    transform: rotate(270deg);
     outline: none;
     border: none;
 }
 
-.btn-navbar:focus {
-    padding: 3px;
-    border: 2px dashed var(--dark);
-} 
-
 .Navbar {
     width: 100%;
     height: calc(100vh - 50px);
-    margin-top: 50px;
 }
 
 .Navbar__logo {
@@ -83,7 +78,6 @@
         position: relative;
         width: max-content;
         height: 100vh;
-        margin-top: 0px;
         background-color: var(--dark);
         /* box-shadow: -5px 0px 41px 0px #00adb5; */
     }
