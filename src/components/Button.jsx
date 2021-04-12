@@ -4,11 +4,9 @@ import '../assets/styles/components/Button.css'
 
 const Button = ({ text, rute }) => {
   return (
-    <div className='btn'>
-      <Link to={rute}>
-        <span>{text}</span>
-      </Link>
-    </div>
+    <Link className="btn-component" to={rute}>
+      <span>{text}</span>
+    </Link>
   )
 }
 

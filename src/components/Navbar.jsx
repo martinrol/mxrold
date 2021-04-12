@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BsArrow90DegLeft, BsArrow90DegRight } from 'react-icons/bs'
+import { FiMenu, FiX } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 import '../assets/styles/components/Navbar.css'
 
@@ -12,9 +12,11 @@ const Navbar = () => {
 
   return (
     <>
-      <button className='btn-navbar' type='button' onClick={handleClick}>
-        {!open ? <BsArrow90DegRight size='32px' /> : <BsArrow90DegLeft size='32px' />}
+    <div className="btn-navbar">
+      <button className='btn-navbar-burger' type='button' onClick={handleClick}>
+        {!open ? <FiX size='32px' /> : <FiMenu size='32px' />}
       </button>
+    </div>
       <div className={!open ? 'Navbar close' : 'Navbar open'}>
         <div className='Navbar__logo'>
           <figure>

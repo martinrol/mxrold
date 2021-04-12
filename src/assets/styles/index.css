@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
 
 :root {
-    --dark: #222831;
-    --moreDark: #191d24;
+    --dark1: #191d24;
+    --dark2: #222831;
     --medium: #393e46;
     --lightGray: #b1bbcc;
-    --blue: #00adb5;
     --light: #eeeeee;
-    --green: #30e3ca;
-    --pink: #f85f73;
+    --blue1: #00656A;
+    --blue2: #008288;
+    --blue3: #00adb5;
+    --blue4: #2ec4cc;
+    --purple1: #312450;
+    --purple2: #5e42a6;
+    --shadow1: rgba(0, 173, 181, .9)
 }
 
 * {

@@ -1,13 +1,9 @@
-.btn {
-  width: 100%;
-  height: 35px;
-}
- 
-.btn a {
+ .btn-component {
   position: relative;
   display: inline-block;
   width: 100%;
-  padding: 15px;
+  height: 100%;
+  padding: 9px;
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 2px;
@@ -19,14 +15,15 @@
   transition: all 0.3s ease-in-out;
 }
 
-.btn a:hover {
-  color: var(--pink);
-  border: 2px solid var(--pink);
+.btn-component:hover {
+  color: var(--blue2);
+  border: 2px solid var(--blue2);
   transition: all 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 767px) {
-  .btn a {
-    max-width: 300px;
+  .btn-component {
+    max-width: 220px;
+    padding: 13px;
   }
 }
