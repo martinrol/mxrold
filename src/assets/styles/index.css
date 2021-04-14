@@ -3,7 +3,8 @@
 :root {
     --dark1: #191d24;
     --dark2: #222831;
-    --medium: #393e46;
+    --medium: #24272c;
+    --gray: #878b92;
     --lightGray: #b1bbcc;
     --light: #eeeeee;
     --blue1: #00656A;
@@ -11,8 +12,18 @@
     --blue3: #00adb5;
     --blue4: #2ec4cc;
     --purple1: #312450;
-    --purple2: #5e42a6;
-    --shadow1: rgba(0, 173, 181, .9)
+    --purple2: #493381;
+    --xxxl: 2.8rem;
+    --xxl: 2.4rem; 
+    --xl: 2.2rem; 
+    --l: 1.8rem; 
+    --m: 1.6rem; 
+    --s: 1.4rem; 
+    --xs: 1.2rem;
+    --radius1: 12px;
+    --radius2: 8px;
+    --radius3: 4px;
+    --borderSpecial: 60px;
 }
 
 * {
@@ -27,7 +38,7 @@ html {
 }
 
 body {
-    background-color: var(--medium);
+    background-color: var(--purple2);
 }
 
 li {
@@ -43,8 +54,7 @@ a {
     display: block;
     width: 100%;
     min-width: 320px;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
 }
 
 @media screen and (min-width: 767px) {

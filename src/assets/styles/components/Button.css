@@ -7,18 +7,11 @@
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 2px;
-  color: var(--light);
-  border: 2px solid var(--lightGray);
   text-transform: uppercase;
-  text-decoration: none;
+  background-color: var(--blue2);
+  color: var(--light);
+  border-radius: var(--radius3);
   text-align: center;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-component:hover {
-  color: var(--blue2);
-  border: 2px solid var(--blue2);
-  transition: all 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 767px) {

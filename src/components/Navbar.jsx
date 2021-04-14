@@ -1,5 +1,15 @@
 import React, { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
+import { 
+  AiFillContacts, 
+  AiFillLayout, 
+  AiTwotoneMail, 
+  AiFillRead,
+  AiFillGithub,
+  AiFillTwitterSquare, 
+  AiFillLinkedin,
+  AiFillInstagram
+} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import '../assets/styles/components/Navbar.css'
 
@@ -29,20 +39,47 @@ const Navbar = () => {
           <nav className='Navbar__links-nav'>
             <ul>
               <Link to='/acerca'>
-                <li>Acerca</li>
+                <li>
+                  <AiFillContacts size="22px"/>
+                  Acerca
+                </li>
               </Link>
               <Link to='/proyectos'>
-                <li>Proyectos</li>
+                <li>
+                  <AiFillLayout size="22px"/>
+                  Proyectos
+                </li>
               </Link>
               <Link to='/blog'>
-                <li>Blog</li>
+                <li>
+                  <AiFillRead size="22px"/>
+                  Blog
+                </li>
               </Link>
               <Link to='/contacto'>
-                <li>Contacto</li>
+                <li>
+                  <AiTwotoneMail size="22px"/>
+                  Contacto
+                </li>
               </Link>
             </ul>
           </nav>
+          <div className='Navbar__links--social'>
+            <a href='#' target='_blank'>
+              <AiFillTwitterSquare size='28px' />
+            </a>
+            <a href='#' target='_blank'>
+              <AiFillInstagram size='28px' />
+            </a>
+            <a href='#' target='_blank'>
+              <AiFillLinkedin size='28px' />
+            </a>
+            <a href='#' target='_blank'>
+              <AiFillGithub size='28px' />
+            </a>
+          </div>
         </div>
+        
       </div>
     </>
   )

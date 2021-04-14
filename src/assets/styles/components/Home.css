@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 85%;
     height: 100vh;
     margin: 0 auto;
 }
@@ -13,37 +13,54 @@
 }
 
 .Home__intro h1 {
-    font-size: 2.6rem;
+    font-size: var(--xxxl);
     font-weight: 700;
+}
+
+.Home__intro--greeting {
+    font-size: 4.5rem;
     color: var(--light);
 }
 
-.Home__intro span {
-    color: var(--blue3);
-}
-
-.Home__intro span:last-child {
-    color: var(--light);
+.Home__intro--skill {
     font-weight: 300;
+    color: var(--blue4);
+    -webkit-animation: Home__intro--skill 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: Home__intro--skill 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+@-webkit-keyframes Home__intro--skill {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes Home__intro--skill {
+    0% {
+      letter-spacing: 1em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
 
 .Home__intro p {
     margin-top: 11px;
-    font-size: 1.3rem;
+    font-size: var(--s);
     font-weight: 400;
     color: var(--light);
-}
-
-.Home__social {
-    width: 100%;
-    max-width: 450px;
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 33px;
-}
-
-.Home__social a {
-    color: var(--blue3);
 }
 
 .Home__button {
@@ -54,8 +71,7 @@
 
 @media screen and (min-width: 767px) {
     .Home {
-        width: 60%;
-        max-width: 1020px;
+        max-width: 900px;
     }
 
     .Home__button {

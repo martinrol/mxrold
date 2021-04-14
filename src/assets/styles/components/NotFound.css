@@ -12,7 +12,7 @@
 }
 
 .NotFound__info p {
-    font-size: 1.3rem;
+    font-size: var(--m);
     font-weight: 400;
     color: var(--light);
 }
