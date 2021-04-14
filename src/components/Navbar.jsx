@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
-import { 
-  AiFillContacts, 
-  AiFillLayout, 
-  AiTwotoneMail, 
+import {
+  AiFillContacts,
+  AiFillLayout,
+  AiTwotoneMail,
   AiFillRead,
   AiFillGithub,
-  AiFillTwitterSquare, 
+  AiFillTwitterSquare,
   AiFillLinkedin,
   AiFillInstagram
 } from 'react-icons/ai'
@@ -22,11 +22,11 @@ const Navbar = () => {
 
   return (
     <>
-    <div className="btn-navbar">
-      <button className='btn-navbar-burger' type='button' onClick={handleClick}>
-        {!open ? <FiX size='32px' /> : <FiMenu size='32px' />}
-      </button>
-    </div>
+      <div className='btn-navbar'>
+        <button className='btn-navbar-burger' type='button' onClick={handleClick}>
+          {!open ? <FiX size='32px' /> : <FiMenu size='32px' />}
+        </button>
+      </div>
       <div className={!open ? 'Navbar close' : 'Navbar open'}>
         <div className='Navbar__logo'>
           <figure>
@@ -40,25 +40,25 @@ const Navbar = () => {
             <ul>
               <Link to='/acerca'>
                 <li>
-                  <AiFillContacts size="22px"/>
+                  <AiFillContacts size='22px' />
                   Acerca
                 </li>
               </Link>
               <Link to='/proyectos'>
                 <li>
-                  <AiFillLayout size="22px"/>
+                  <AiFillLayout size='22px' />
                   Proyectos
                 </li>
               </Link>
               <Link to='/blog'>
                 <li>
-                  <AiFillRead size="22px"/>
+                  <AiFillRead size='22px' />
                   Blog
                 </li>
               </Link>
               <Link to='/contacto'>
                 <li>
-                  <AiTwotoneMail size="22px"/>
+                  <AiTwotoneMail size='22px' />
                   Contacto
                 </li>
               </Link>
@@ -79,7 +79,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        
+
       </div>
     </>
   )

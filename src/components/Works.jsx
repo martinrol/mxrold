@@ -5,14 +5,14 @@ import '../assets/styles/components/Works.css'
 
 const Works = () => {
   return (
-    <section className="Works">
-      <div className="Works__title">
+    <section className='Works'>
+      <div className='Works__title'>
         <h2>Proyectos destacados</h2>
       </div>
 
       <FeaturedWorks />
 
-      <div className="Works__subtitle">
+      <div className='Works__subtitle'>
         <h2>Lista de proyectos</h2>
       </div>
 
