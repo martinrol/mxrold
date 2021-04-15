@@ -1,8 +1,8 @@
 import React from 'react'
 import Button from './Button'
 import FeaturedWorks from './FeaturedWorks'
-import ListOfWorks from './ListOfWorks'
-import { featuredList, listOfWorks } from '../../api/works.json'
+import WorksList from './WorksList'
+import { featuredList, worksList } from '../../api/works.json'
 import '../assets/styles/components/Works.css'
 
 const Works = () => {
@@ -27,8 +27,8 @@ const Works = () => {
 
       <div className="Works__projects">
         {
-          listOfWorks.map((items) => (
-            <ListOfWorks key={items.id} {...items} />
+          worksList.map((items) => (
+            <WorksList key={items.id} {...items} />
           ))
         }
       </div>

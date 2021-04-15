@@ -1,7 +1,7 @@
 import React from 'react'
 import { BiWorld } from 'react-icons/bi'
 import { AiFillGithub } from 'react-icons/ai'
-import '../assets/styles/components/ListOfWorks.css'
+import '../assets/styles/components/WorksList.css'
 
 const ListOfWorks = ({ number, title, build }) => {
   return (

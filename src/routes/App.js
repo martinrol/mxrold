@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import { About, Works, Contact } from '../components/'
+import { About, Works, Contact, TotalWorks } from '../components/'
 import { Main, Blog, NotFound } from '../pages/'
 import Layout from '../components/Layout'
 
@@ -13,6 +13,7 @@ const App = () => (
         <Route exact path='/proyectos' component={Works} />
         <Route exact path='/blog' component={Blog} />
         <Route exact path='/contacto' component={Contact} />
+        <Route exact path='/proyectos/listado' component={TotalWorks} />
         <Route path='*' component={NotFound} />
       </Switch>
     </Layout>
