@@ -28,6 +28,18 @@
     color: var(--light);
 }
 
+.Works__projects {
+    width: 85%;
+    height: max-content;
+    margin: 30px auto 0 auto;
+}
+
+.Works__list {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: 22px auto 0 auto;
+}
 
 @media screen and (min-width: 440px) {
     .Works__title h2::after {
@@ -49,6 +61,12 @@
         vertical-align: middle;
         background-color: var(--purple1);
     }
+
+    .Works__projects {
+        display: grid;
+        grid-template: auto / repeat(2, 1fr);
+        grid-gap: 7px;
+    }  
 }
 
 @media screen and (min-width: 767px) {
@@ -63,4 +81,10 @@
     .Works__subtitle {
         width: 85%;
     }
+
+    .Works__projects {
+        grid-template: auto / repeat(3, 1fr);
+        grid-gap: 3px;
+        width: 85%;
+    }  
 }
