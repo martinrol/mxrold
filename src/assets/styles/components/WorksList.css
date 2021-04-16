@@ -80,7 +80,7 @@
     color: var(--light);
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 480px) {
     .Works__projects--item-container:nth-child(1) {
         border-top-left-radius: var(--radius3);
         border-top-right-radius: 0px;
