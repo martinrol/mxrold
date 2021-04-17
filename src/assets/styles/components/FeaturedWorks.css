@@ -22,7 +22,6 @@
     display: block;
     width: 100%;
     height: 100%;
-    filter:grayscale(70%);
 }
 
 .Works__item--image img {
@@ -32,10 +31,6 @@
     object-fit: cover;
     border-top-left-radius: var(--radius3);
     border-top-right-radius:var(--radius3);
-}
-
-.Works__item--image a:hover {
-    filter: grayscale(none);
 }
 
 .Works__item--info {
@@ -115,7 +110,7 @@
 @media screen and (min-width: 767px) {
     .Works__item {
         flex-direction: row;
-        width: 95%;
+        width: 85%;
         margin-bottom: 80px;
     }
 

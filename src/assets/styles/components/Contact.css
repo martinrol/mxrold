@@ -1,0 +1,124 @@
+.Contact {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: 36px auto;
+}
+
+.Contact__info {
+    width: 85%;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.Contact__info h2 {
+    margin-bottom: 11px;
+    font-size: var(--xl);
+    color: var(--light);
+}
+
+.Contact__info p {
+    margin-top: 11px;
+    font-size: var(--s);
+    font-weight: 400;
+    color: var(--lightGray);
+}
+
+.Contact__me {
+    width: 85%;
+    height: max-content;
+    margin-top: 22px;
+    margin: 22px auto 0 auto;
+}
+
+.Contact__me form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: var(--m);
+    background-color: var(--dark1);
+    color: var(--lightGray);
+    border-radius: var(--radius3);
+}
+
+.Contact__me form label {
+    margin-bottom: 6px;
+}
+
+.Contact__me form input {
+    height: 40px;
+}
+
+.Contact__me form input,
+.Contact__me form textarea {
+    margin-bottom: 22px;
+    padding-left: 12px;
+    font-size: var(--l);
+    background-color: var(--medium);
+    color: var(--lightGray);
+    border-bottom: 2px solid var(--blue3);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: var(--radius3);
+    outline: none;
+}
+
+.Contact__me form textarea {
+    min-height: 120px;
+    max-height: 300px;
+    padding-top: 6px;
+    resize: vertical;
+}
+
+.Contact__me form button {
+    width: 100%;
+    height: 100%;
+    padding: 9px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: var(--blue2);
+    color: var(--light);
+    border-radius: var(--radius3);
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    font-size: var(--xs);
+    font-weight: 300;
+    color: var(--lightGray);
+}
+
+@media screen and (min-width: 767px) {
+    .Contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+    .Contact__info {
+        width: 35%;
+        height: 100%;
+    }
+
+    .Contact__me {
+        width: 35%;
+    }
+
+    .Contact__me form button {
+        position: relative;
+        left: calc(100% - 220px);
+
+        max-width: 220px;
+        padding: 13px;
+    }
+}

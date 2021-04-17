@@ -70,18 +70,6 @@
 }
 
 @media screen and (min-width: 767px) {
-    .Works {
-        width: 100%;
-    }
-
-    .Works__title {
-        width: 95%;
-    }
-
-    .Works__subtitle {
-        width: 85%;
-    }
-
     .Works__projects {
         grid-template: auto / repeat(3, 1fr);
         grid-gap: 3px;
