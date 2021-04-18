@@ -5,21 +5,28 @@
             "title": "Título",
             "image": "https://images.unsplash.com/photo-1507808973436-a4ed7b5e87c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 2,
             "title": "Título 2",
             "image": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 3,
             "title": "Título 3",
             "image": "https://images.unsplash.com/photo-1618166093881-b41b48cf1f9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
+            
         }
     ],
     "worksList": [
@@ -27,37 +34,49 @@
             "id": 1,
             "number": "01",
             "title": "Título 1",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 2,
             "number": "02",
             "title": "Título 2",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 3,
             "number": "03",
             "title": "Título 3",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 4,
             "number": "04",
             "title": "Título 4",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 5,
             "number": "05",
             "title": "Título 5",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         },
         {
             "id": 6,
             "number": "06",
             "title": "Título 6",
-            "build": "Example - Example - Example"
+            "build": "Example - Example - Example",
+            "github": "",
+            "url": ""
         }
     ],
     "totalWorks": [

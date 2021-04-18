@@ -3,7 +3,7 @@ import { BiWorld } from 'react-icons/bi'
 import { AiFillGithub } from 'react-icons/ai'
 import '../assets/styles/components/WorksList.css'
 
-const ListOfWorks = ({ number, title, build }) => {
+const ListOfWorks = ({ number, title, build, github, url }) => {
   return (
     <div className='Works__projects--item'>
       <article className='Works__projects--item-container'>
@@ -19,11 +19,11 @@ const ListOfWorks = ({ number, title, build }) => {
           <p>{build}</p>
         </div>
         <div className='Works__projects--item-container-links'>
-          <a href='#'>
+          <a href={github} target="_blank">
             <AiFillGithub size='28px' />
           </a>
           <span />
-          <a href='#'>
+          <a href={url} target="_blank">
             <BiWorld size='28px' />
           </a>
         </div>
