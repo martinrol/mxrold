@@ -14,7 +14,7 @@
 .NotFound__info p {
     font-size: var(--m);
     font-weight: 400;
-    color: var(--light);
+    color: var(--lightGray);
 }
 
 .NotFound__button {

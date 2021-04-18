@@ -14,6 +14,7 @@
 
 .Works__title h2 {
     font-size: var(--xl);
+    font-weight: 500;
     color: var(--light);
 }
 
@@ -25,6 +26,7 @@
 
 .Works__subtitle h2 {
     font-size: var(--xl);
+    font-weight: 500;
     color: var(--light);
 }
 
@@ -42,26 +44,6 @@
 }
 
 @media screen and (min-width: 480px) {
-    .Works__title h2::after {
-        display: inline-block;
-        content: "";
-        width: 40%;
-        height: 2px;
-        margin-left: 14px;
-        vertical-align: middle;
-        background-color: var(--purple1);
-    }
-
-    .Works__subtitle h2::after {
-        display: inline-block;
-        content: "";
-        width: 20%;
-        height: 2px;
-        margin-left: 14px;
-        vertical-align: middle;
-        background-color: var(--purple1);
-    }
-
     .Works__projects {
         display: grid;
         grid-template: auto / repeat(2, 1fr);

@@ -9,7 +9,7 @@
 
 .Blog p {
     margin-top: 11px;
-    font-size: 1.6rem;
+    font-size: var(--m);
     font-weight: 400;
-    color: var(--light);
+    color: var(--lightGray);
 }

@@ -12,13 +12,15 @@
 
 .TotalWorks__title h2 {
     margin-bottom: 16px;
-    font-size: var(--l);
+    font-size: var(--xl);
+    font-weight: 500;
     color: var(--light);
 }
 
 .TotalWorks__title p {
     margin-bottom: 30px;
     font-size: var(--m);
+    font-weight: 400;
     color: var(--lightGray);
 }
 
@@ -31,9 +33,9 @@
 
 .TotalWorks__categories p {
     padding: 6px 0;
-    font-size: var(--l);
+    font-size: var(--m);
     font-weight: 500;
-    color: var(--lightGray);
+    color: var(--lightGray2);
 }
 
 .TotalWorks__categories p:nth-child(3) {
@@ -48,10 +50,6 @@
 
     .TotalWorks__title {
         width: 85%;
-    }
-
-    .TotalWorks__title h2 {
-        font-size: var(--xl);
     }
 
     .TotalWorks__categories {

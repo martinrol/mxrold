@@ -13,12 +13,13 @@
 
 .About__me h2 {
     font-size: var(--xl);
+    font-weight: 500;
     color: var(--light);
 }
 
 .About__me p {
     margin-top: 11px;
-    font-size: var(--s);
+    font-size: var(--m);
     font-weight: 400;
     color: var(--lightGray);
 }
@@ -51,7 +52,7 @@
 .svg-one {
     position: relative;
     left: 42px;
-    animation: rotate 42s infinite linear;
+    animation: rotate 60s infinite linear;
     color: rgba(228, 77, 38, 1);
 }
 @keyframes rotate {
@@ -62,7 +63,7 @@
 .svg-two {
     position: relative;
     left: 21px;
-    animation: rotate-2 35s infinite linear;
+    animation: rotate-2 40s infinite linear;
     color: rgba(26, 98, 177, 1);
 }
 @keyframes rotate-2 {
@@ -73,7 +74,7 @@
 .svg-three {
     position: relative;
     right: 10.5px;
-    animation: rotate-3 28s infinite linear;
+    animation: rotate-3 20s infinite linear;
     color: rgba(247, 224, 24, 1);
 }
 @keyframes rotate-3 {
@@ -84,7 +85,7 @@
 .svg-four {
     position: relative;
     right: 42px;
-    animation: rotate-4 21s infinite linear;
+    animation: rotate-4 20s infinite linear;
     color: rgba(97, 218, 251, 1);
 }
 @keyframes rotate-4 {
@@ -132,8 +133,9 @@
 }
 
 .About__skills--complement h3 {
-    font-size: var(--m);
-    color: var(--lightGray)
+    font-size: var(--l);
+    font-weight: 500;
+    color: var(--lightGray2);
 }
 
 .About__skills--complements-items {
@@ -143,18 +145,6 @@
     width: 100%;
     height: 100%;
     margin-top: 11px;
-}
-
-@media screen and (min-width: 480px) {
-    .About__me h2::after {
-        display: inline-block;
-        content: "";
-        width: 40%;
-        height: 2px;
-        margin-left: 14px;
-        vertical-align: middle;
-        background-color: var(--purple1);
-    }
 }
 
 @media screen and (min-width: 767px) {

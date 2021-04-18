@@ -56,12 +56,21 @@
 
 .Works__projects--item-container-title h3 {
     font-size: var(--l);
+    font-weight: 500;
+    color: var(--lightGray2);
     margin-top: 18px;
 }
 
 .Works__projects--item-container-tools {
     width: 100%;
     margin-top: 12px;
+}
+
+.Works__projects--item-container-tools p {
+    font-size: var(--s);
+    font-weight: 400;
+    color: var(--lightGray);
+    text-align: center;
 }
 
 .Works__projects--item-container-links {

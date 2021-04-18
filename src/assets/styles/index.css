@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 
 :root {
     --dark1: #191d24;
@@ -6,6 +6,7 @@
     --medium: #24272c;
     --gray: #878b92;
     --lightGray: #b1bbcc;
+    --lightGray2: #e4d9d9;
     --light: #eeeeee;
     --blue1: #00656A;
     --blue2: #008288;
@@ -13,13 +14,11 @@
     --blue4: #2ec4cc;
     --purple1: #312450;
     --purple2: #493381;
-    --xxxl: 2.8rem;
-    --xxl: 2.4rem; 
-    --xl: 2.2rem; 
-    --l: 1.8rem; 
-    --m: 1.6rem; 
-    --s: 1.4rem; 
-    --xs: 1.2rem;
+    --xxl: 3.4rem; /* h1 */
+    --xl: 3rem; /* h2 */
+    --l: 1.8rem; /* h3 */
+    --m: 1.6rem; /* p, a */
+    --s: 1.4rem; /* p, button, form(*) */
     --radius1: 12px;
     --radius2: 8px;
     --radius3: 4px;
@@ -48,6 +47,10 @@ li {
 a {
     text-decoration: none;
     cursor: pointer;
+}
+
+h1, h2, h3, a, button {
+    letter-spacing: 1px;
 }
 
 #app {

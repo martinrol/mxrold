@@ -13,7 +13,7 @@
 }
 
 .Home__intro h1 {
-    font-size: var(--xxxl);
+    font-size: var(--xxl);
     font-weight: 700;
 }
 
@@ -58,7 +58,7 @@
 
 .Home__intro p {
     margin-top: 11px;
-    font-size: var(--s);
+    font-size: var(--m);
     font-weight: 400;
     color: var(--light);
 }
@@ -77,5 +77,4 @@
     .Home__button {
         height: 48px;
     }
-    
 }

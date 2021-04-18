@@ -3,7 +3,7 @@ import { BiWorld } from 'react-icons/bi'
 import { AiFillGithub } from 'react-icons/ai'
 import '../assets/styles/components/FeaturedWorks.css'
 
-const FeaturedProjects = ({ image, title, features, description, build }) => {
+const FeaturedProjects = ({ image, title, description, build }) => {
   return (
     <div className="Works__item">
       <div className='Works__item--image'>
@@ -15,15 +15,11 @@ const FeaturedProjects = ({ image, title, features, description, build }) => {
       </div>
       <div className='Works__item--info'>
         <h3>{title}</h3>
-        <h4>{features}</h4>
         <div className='Works__item--info-box'>
           <p>{description}</p>
           <div className='Works__item--info-box-tools'>
             <ul>
               <li>{build}</li>
-              <li>Example</li>
-              <li>Example</li>
-              <li>Example</li>
             </ul>
           </div>
           <div className='Works__item--info-box-links'>

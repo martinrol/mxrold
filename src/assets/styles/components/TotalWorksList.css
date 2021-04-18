@@ -19,7 +19,6 @@
     min-height: 80px;
     height: max-content;
     font-size: var(--s);
-    font-weight: 400;
     color: var(--lightGray);
     border-right: 1px solid var(--purple2);
 }
@@ -31,6 +30,7 @@
 }
 
 .TotalWorks__item--title {
+    font-weight: 500;
     padding: 0 8px;
     background-color: var(--dark2);
 }
@@ -84,6 +84,5 @@
     .TotalWorks__item--links {
         min-height: 60px;
         height: max-content;
-        font-size: var(--m);
     }
 }
