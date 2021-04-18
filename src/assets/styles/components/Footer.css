@@ -1,0 +1,36 @@
+.Footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 85%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.Footer a {
+    width: 40px;
+    height: 100%;
+    background-color: var(--blue3);
+    color: var(--light);
+    border-top-left-radius: var(--radius1);
+    border-top-right-radius: var(--radius1);
+}
+
+.Footer a svg {
+    margin-top: 5.5px;
+    animation: arrow 1s ease-in-out infinite;
+
+}
+
+@keyframes arrow {
+    0% {
+        transform: translate(0px, 5px);
+    }
+    50% {
+        transform: translate(0px, 10px);
+    }
+    100% {
+        transform: translate(0px, 5px);
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Home, About, Works, Contact } from '../components/'
+import { Home, About, Works, Contact, Footer } from '../components/'
 import '../assets/styles/components/Main.css'
 
 const Main = () => {
@@ -9,6 +9,7 @@ const Main = () => {
       <About />
       <Works />
       <Contact />
+      <Footer />
     </div>
   )
 }

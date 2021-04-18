@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <section className='Home'>
+      <section className='Home' id="Home">
         <div className='Home__intro'>
           <h1>
             <span className='Home__intro--greeting'>Hola 👋, <br /> soy Martín Roldán, </span> <br />
