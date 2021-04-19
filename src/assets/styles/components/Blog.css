@@ -8,7 +8,7 @@
 }
 
 .Blog p {
-    margin-top: 11px;
+    margin-top: var(--margin3);
     font-size: var(--m);
     font-weight: 400;
     color: var(--lightGray);

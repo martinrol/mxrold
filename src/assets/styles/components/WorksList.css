@@ -10,7 +10,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-bottom: 7px;
+    margin-bottom: var(--margin3);
     padding: 18px;
     background-color: var(--dark1);
     color: var(--lightGray);
@@ -63,7 +63,7 @@
 
 .Works__projects--item-container-tools {
     width: 100%;
-    margin-top: 12px;
+    margin-top: var(--margin3);
 }
 
 .Works__projects--item-container-tools p {

@@ -1,7 +1,7 @@
 .TotalWorks {
     width: 90%;
     height: 100%;
-    margin: 36px auto;
+    margin: var(--margin1) auto;
 }
 
 .TotalWorks__title {
@@ -11,14 +11,14 @@
 }
 
 .TotalWorks__title h2 {
-    margin-bottom: 16px;
+    margin-bottom: var(--margin3);
     font-size: var(--xl);
     font-weight: 500;
     color: var(--light);
 }
 
 .TotalWorks__title p {
-    margin-bottom: 30px;
+    margin-bottom: var(--margin2);
     font-size: var(--m);
     font-weight: 400;
     color: var(--lightGray);

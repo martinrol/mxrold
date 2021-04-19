@@ -19,5 +19,5 @@
 
 .NotFound__button {
     width: 90%;
-    margin-top: 36px;
+    margin-top: var(--margin2);
 }
