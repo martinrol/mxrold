@@ -11,11 +11,11 @@ const Contact = () => {
       <div className="Contact__me">
         <form action="#">
           <label htmlFor="name">Nombre</label>
-          <input type="text" name="name" id="" placeholder="Nombre"/>
+          <input type="text" name="name" id="name" placeholder="Nombre"/>
           <label htmlFor="email">Correo</label>
-          <input type="email" name="email" id="" placeholder="Correo electrónico"/>
+          <input type="email" name="email" id="email" placeholder="Correo electrónico"/>
           <label htmlFor="message">Mensaje</label>
-          <textarea name="message" id="" placeholder="Mensaje"/>
+          <textarea name="message" id="message" placeholder="Mensaje"/>
           <button type="submit">Enviar</button>
         </form>
       </div>

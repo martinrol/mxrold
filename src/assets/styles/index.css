@@ -14,6 +14,7 @@
     --blue4: #2ec4cc;
     --purple1: #312450;
     --purple2: #493381;
+    --pink: #ff2e63;
     --margin1: 36px;
     --margin2: 28px;
     --margin3: 11px;
@@ -55,6 +56,17 @@ a {
 
 h1, h2, h3, a, button {
     letter-spacing: 1px;
+}
+
+a:focus,
+button:focus, 
+textarea:focus, 
+input:focus, 
+label:focus,
+svg:focus {
+    outline: 2px dashed var(--pink);
+    outline-offset: 3px;
+    transition: all 0.3s ease-out;
 }
 
 #app {

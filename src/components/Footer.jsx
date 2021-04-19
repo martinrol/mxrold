@@ -5,7 +5,7 @@ import '../assets/styles/components/Footer.css'
 const Footer = () => {
     return (
         <section className="Footer">
-            <a href="#Home">
+            <a href="#Home" title="Volver al principio">
                 <AiOutlineUp size="28px"/>
             </a>
         </section>

@@ -22,11 +22,12 @@
     width: 85%;
     height: max-content;
     margin: 0 auto;
+    text-align: center;
 }
 
-.Works__subtitle h2 {
+.Works__subtitle h3 {
     margin-top: var(--margin2);
-    font-size: var(--xl);
+    font-size: var(--l);
     font-weight: 500;
     color: var(--light);
 }

@@ -62,7 +62,6 @@
     border-left: none;
     border-right: none;
     border-radius: var(--radius3);
-    outline: none;
 }
 
 .Contact__me form textarea {
@@ -80,12 +79,11 @@
     font-weight: 500;
     text-transform: uppercase;
     background-color: var(--blue2);
-    color: var(--light);
+    color: var(--lightGray2);
     border-radius: var(--radius3);
     text-align: center;
-    border: none;
-    outline: none;
     cursor: pointer;
+    border: none;
 }
 
 ::placeholder {

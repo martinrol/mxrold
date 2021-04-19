@@ -19,11 +19,11 @@ const ListOfWorks = ({ number, title, build, github, url }) => {
           <p>{build}</p>
         </div>
         <div className='Works__projects--item-container-links'>
-          <a href={github} target="_blank">
+          <a href={github} target="_blank" title="Enlace de Github">
             <AiFillGithub size='28px' />
           </a>
           <span />
-          <a href={url} target="_blank">
+          <a href={url} target="_blank" title="Enlace al sitio web">
             <BiWorld size='28px' />
           </a>
         </div>

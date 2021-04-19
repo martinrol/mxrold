@@ -4,13 +4,13 @@ import '../assets/styles/components/Main.css'
 
 const Main = () => {
   return (
-    <div className='Main'>
+    <main className='Main'>
       <Home />
       <About />
       <Works />
       <Contact />
       <Footer />
-    </div>
+    </main>
   )
 }
 

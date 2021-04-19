@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <>
       <div className='btn-navbar'>
-        <button className='btn-navbar-burger' type='button' onClick={handleClick}>
+        <button className='btn-navbar-burger' type='button' onClick={handleClick} title="Abrir y cerrar menú">
           {!open ? <FiX size='32px' /> : <FiMenu size='32px' />}
         </button>
       </div>
@@ -65,16 +65,16 @@ const Navbar = () => {
             </ul>
           </nav>
           <div className='Navbar__links--social'>
-            <a href='#' target='_blank'>
+            <a href='#' target='_blank' title="Twitter">
               <AiFillTwitterSquare size='28px' />
             </a>
-            <a href='#' target='_blank'>
+            <a href='#' target='_blank' title="Instragram">
               <AiFillInstagram size='28px' />
             </a>
-            <a href='#' target='_blank'>
+            <a href='#' target='_blank' title="Linkedin">
               <AiFillLinkedin size='28px' />
             </a>
-            <a href='#' target='_blank'>
+            <a href='#' target='_blank' title="Github">
               <AiFillGithub size='28px' />
             </a>
           </div>

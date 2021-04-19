@@ -20,16 +20,16 @@ const About = () => {
               <div className="About__skills--animation-three">
                 <div className="About__skills--animation-four">
                   <span className="svg-one">
-                    <AiFillHtml5  size="28px"/>
+                    <AiFillHtml5  size="28px" title="Logo de HTML" tabIndex="0"/>
                   </span>
                   <span className="svg-two">
-                    <DiCss3 size="28px"/>
+                    <DiCss3 size="28px" title="Logo de CSS" tabIndex="0"/>
                   </span>
                   <span className="svg-three">
-                    <SiJavascript size="28px"/>
+                    <SiJavascript size="28px" title="Logo de JavaScript" tabIndex="0"/>
                   </span>
                   <span className="svg-four">
-                    <FaReact size="28px"/>
+                    <FaReact size="28px" title="Logo de React" tabIndex="0"/>
                   </span>
                 </div>
               </div>

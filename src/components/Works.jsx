@@ -12,7 +12,7 @@ const Works = () => {
   return (
     <section className='Works'>
       <div className='Works__title'>
-        <h2>Proyectos destacados</h2>
+        <h2>Proyectos</h2>
       </div>
 
       {
@@ -22,7 +22,7 @@ const Works = () => {
       }
 
       <div className='Works__subtitle'>
-        <h2>Lista de proyectos</h2>
+        <h3>Lista de proyectos</h3>
       </div>
 
       <div className="Works__projects">
