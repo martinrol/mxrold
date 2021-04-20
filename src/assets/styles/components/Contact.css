@@ -7,7 +7,7 @@
 
 .Contact__info {
     width: 85%;
-    height: max-content;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@
 
 .Contact__me {
     width: 85%;
-    height: max-content;
+    height: auto;
     margin: var(--margin2) auto 0 auto;
 }
 
