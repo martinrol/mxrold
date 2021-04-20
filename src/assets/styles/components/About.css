@@ -24,6 +24,78 @@
     color: var(--lightGray);
 }
 
+.About__me--title-courses {
+    width: 100%;
+    height: max-content;
+}
+
+.About__me--title-courses h3 {
+    margin-top: var(--margin2);
+    margin-bottom: var(--margin3);
+    font-size: var(--l);
+    font-weight: 500;
+    color: var(--lightGray2);
+    text-align: center;
+}
+
+.About__me--title-courses a {
+    font-size: var(--s);
+    font-weight: 400;
+    color: var(--blue3);
+    
+    transition: all .2s ease 0s;
+}
+
+.About__me--title-courses a:hover {
+    color: var(--lightGray2);
+    border-bottom: 2px solid var(--blue3);
+}
+
+.About__me--courses {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    width: 100%;
+}
+
+.About__me--courses-item {
+    position: relative;
+    scroll-snap-align: center;
+    width: 100%;
+    min-width: 90%;
+    
+    max-height: 300px;
+    margin: var(--margin3) 0 var(--margin2) 10px;
+    background-color: var(--light);
+    border-radius: var(--radius3);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.About__me--courses-item div {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    background-color: var(--pink);
+    text-align: center;
+    border-top-left-radius: var(--radius3);
+    border-bottom-right-radius: var(--radius1);
+}
+
+.About__me--courses-item p {
+   font-size: var(--xl);
+   font-weight: 500;
+   color: var(--light);
+    
+}
+
+.About__me--courses-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius3);
+}
+
 .About__skills {
     width: 85%;
     height: 100%;
@@ -148,6 +220,12 @@
     margin-top: var(--margin3);
 }
 
+@media screen and (min-width: 480px) {
+    .About__me--courses-item {
+        min-width: 60%;
+    }
+}
+
 @media screen and (min-width: 767px) {
     .About {
         display: flex;
@@ -163,6 +241,10 @@
         height: 100%;
     }
     
+    .About__me--courses-item {
+        min-width: 90%;
+    }
+
     .About__skills {
         width: 35%;
         height: 100%;

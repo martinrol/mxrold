@@ -1,4 +1,30 @@
 {
+    "courses": [
+        {
+            "id": 1,
+            "title": "Enlace al curso de React Router y Redux",
+            "image": "https://i.ibb.co/7gkpTnQ/image.png",
+            "url": "https://platzi.com/p/Martinrol/curso/1652-react-router-redux/diploma/detalle/"
+        },
+        {
+            "id": 2,
+            "title": "Enlace al curso de Frontend Developer",
+            "image": "https://i.ibb.co/J5zvCV5/image.png",
+            "url": "https://platzi.com/p/Martinrol/curso/1640-frontend-developer/diploma/detalle/"
+        },
+        {
+            "id": 3,
+            "title": "Enlace al curso de React Hooks",
+            "image": "https://i.ibb.co/7bN194Z/image.png",
+            "url": "https://platzi.com/p/Martinrol/curso/2118-react-hooks/diploma/detalle/"
+        },
+        {
+            "id": 4,
+            "title": "Enlace al curso de Git y Github",
+            "image": "https://i.ibb.co/7jmCbK0/image.png",
+            "url": "https://platzi.com/p/Martinrol/curso/1557-git-github/diploma/detalle/"
+        }
+    ],
     "featuredList": [
         {
             "id": 1,
