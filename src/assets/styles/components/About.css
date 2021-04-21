@@ -41,8 +41,7 @@
 .About__me--title-courses a {
     font-size: var(--s);
     font-weight: 400;
-    color: var(--blue3);
-    
+    color: var(--blue4);
     transition: all .2s ease 0s;
 }
 
@@ -64,12 +63,11 @@
     scroll-snap-align: center;
     width: 100%;
     min-width: 90%;
-    
     max-height: 300px;
     margin: var(--margin3) 0 var(--margin2) 10px;
     background-color: var(--light);
     border-radius: var(--radius3);
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.616);
 }
 
 .About__me--courses-item div {
@@ -102,6 +100,13 @@
     margin: 0 auto;
 }
 
+.About__skills h3 {
+    font-size: var(--l);
+    font-weight: 500;
+    color: var(--lightGray2);
+    text-align: center;
+}
+
 .About__skills--animation {
     display: flex;
     justify-content: center;
@@ -122,52 +127,19 @@
     border-radius: 50%;
 }
 
-.svg-one {
-    position: relative;
-    left: 42px;
-    animation: rotate 60s infinite linear;
-    color: rgba(228, 77, 38, 1);
-}
-@keyframes rotate {
-    from { transform: rotate(0deg)  translate(-150px) rotate(0deg); }
-    to { transform: rotate(360deg) translate(-150px) rotate(-360deg); }
-}
-
-.svg-two {
-    position: relative;
-    left: 21px;
-    animation: rotate-2 40s infinite linear;
-    color: rgba(26, 98, 177, 1);
-}
-@keyframes rotate-2 {
-    from { transform: rotate(0deg)  translate(-100px) rotate(0deg); }
-    to { transform: rotate(360deg) translate(-100px) rotate(-360deg); }
-}
-
-.svg-three {
-    position: relative;
-    right: 10.5px;
-    animation: rotate-3 20s infinite linear;
-    color: rgba(247, 224, 24, 1);
-}
-@keyframes rotate-3 {
-    from { transform: rotate(0deg)  translate(-50px) rotate(0deg); }
-    to { transform: rotate(360deg) translate(-50px) rotate(-360deg); }
-}
-
-.svg-four {
-    position: relative;
-    right: 42px;
-    animation: rotate-4 20s infinite linear;
-    color: rgba(97, 218, 251, 1);
-}
-@keyframes rotate-4 {
-    to {
-        transform: rotate(1turn);
-    }
-}
 
 .About__skills--animation-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    border: 2px solid var(--purple1);
+    border-radius: 50%;
+}
+
+.About__skills--animation-three {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,25 +150,108 @@
     border-radius: 50%;
 }
 
-.About__skills--animation-three {
+.About__skills--animation-four {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     margin: 0 auto;
     border: 2px solid var(--purple1);
     border-radius: 50%;
 }
 
-.About__skills--animation-four {
+.About__skills--animation-five {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
     margin: 0 auto;
     border-radius: 50%;
+}
+
+.svg-one {
+    position: relative;
+    left: 84px;
+    animation: rotate 120s infinite linear;
+    color: rgba(228, 77, 38, 1);
+}
+@keyframes rotate {
+    from { transform: rotate(0deg)  translate(-150px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-150px) rotate(-360deg); }
+}
+
+.About__skills--complements-items span:nth-child(4) {
+    color: rgba(240, 80, 48, 1);
+}
+
+
+.svg-two {
+    position: relative;
+    left: 56px;
+    animation: rotate-2 100s infinite linear;
+    color: rgba(26, 98, 177, 1);
+}
+@keyframes rotate-2 {
+    from { transform: rotate(0deg)  translate(-115px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-115px) rotate(-360deg); }
+}
+
+.svg-three {
+    position: relative;
+    left: 28px;
+    animation: rotate-3 80s infinite linear;
+    color:  var(--lightGray);
+}
+
+@keyframes rotate-3 {
+    from { transform: rotate(0deg)  translate(-84px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-84px) rotate(-360deg); }
+}
+
+.svg-four {
+    position: relative; 
+    animation: rotate-4 60s infinite linear;
+    color: rgba(76, 178, 180, 1);
+}
+@keyframes rotate-4 {
+    from { transform: rotate(0deg)  translate(-84px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-84px) rotate(-360deg); }
+}
+
+.svg-five {
+    position: relative;
+    right: 28px;
+    animation: rotate-5 45s infinite linear;
+    color: rgba(247, 224, 24, 1);
+}
+@keyframes rotate-5 {
+    from { transform: rotate(0deg)  translate(-44px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-44px) rotate(-360deg); }
+}
+
+.svg-six {
+    position: relative;
+    right: 56px;
+    animation: rotate-6 30s infinite linear;
+    color: rgba(255, 210, 88, 1);
+}
+@keyframes rotate-6 {
+    from { transform: rotate(0deg)  translate(-44px) rotate(0deg); }
+    to { transform: rotate(360deg) translate(-44px) rotate(-360deg); }
+}
+
+.svg-seven {
+    position: relative;
+    right: 84px;
+    animation: rotate-7 20s infinite linear;
+    color: rgba(97, 218, 251, 1);
+}
+@keyframes rotate-7 {
+    to {
+        transform: rotate(1turn);
+    }
 }
 
 .About__skills--complement {
@@ -205,40 +260,121 @@
     margin-top: var(--margin2);
 }
 
-.About__skills--complement h3 {
-    font-size: var(--l);
-    font-weight: 500;
-    color: var(--lightGray2);
-}
-
 .About__skills--complements-items {
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     place-items: center;
+    grid-gap: 18px;
     width: 100%;
     height: 100%;
     margin-top: var(--margin3);
+}
+
+.About__skills--complements-items p {
+    font-size: var(--s);
+    font-weight: 400;
+    color: var(--lightGray);
+}
+
+.About__skills--complements-items p::before {
+    content: ">";
+    display: inline-block;
+    margin-right: 7px;
+    font-weight: 700;
+    color: var(--blue4);
 }
 
 @media screen and (min-width: 480px) {
     .About__me--courses-item {
         min-width: 60%;
     }
+
+    .About__skills--animation-one {
+        width: 450px;
+        height: 450px;
+    }
+
+    .svg-one {
+        left: 112px;
+    }
+    @keyframes rotate {
+        from { transform: rotate(0deg)  translate(-225px) rotate(0deg); }
+        to { transform: rotate(360deg) translate(-225px) rotate(-360deg); }
+    }
+    
+    .svg-two {
+        left: 84px;
+    }
+    @keyframes rotate-2 {
+        from { transform: rotate(0deg)  translate(-175px) rotate(0deg); }
+        to { transform: rotate(360deg) translate(-175px) rotate(-360deg); }
+    }
+    
+    .svg-three {
+        left: 28px;
+    }
+    
+    @keyframes rotate-3 {
+        from { transform: rotate(0deg)  translate(-120px) rotate(0deg); }
+        to { transform: rotate(360deg) translate(-120px) rotate(-360deg); }
+    }
+    
+    @keyframes rotate-4 {
+        from { transform: rotate(0deg)  translate(-125px) rotate(0deg); }
+        to { transform: rotate(360deg) translate(-125px) rotate(-360deg); }
+    }
+    
+    .svg-five {
+        right: 34px;
+    }
+    @keyframes rotate-5 {
+        from { transform: rotate(0deg)  translate(-75px) rotate(0deg); }
+        to { transform: rotate(360deg) translate(-75px) rotate(-360deg); }
+    }
+    
+    .svg-six {
+        right: 75px;
+    }
+    @keyframes rotate-6 {
+        from { transform: rotate(0deg)  translate(-75px) rotate(0deg); }
+        to { transform: rotate(360deg) translate(-75px) rotate(-360deg); }
+    }
+    
+    .svg-seven {
+        right: 112px;
+    }
+    @keyframes rotate-7 {
+        to {
+            transform: rotate(1turn);
+        }
+    }
 }
 
 @media screen and (min-width: 767px) {
     .About {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template: repeat(2, 1fr) / 1fr;
+        grid-template-areas: ".About__me .About__me"
+                             ".About__skills .About__skills";
         width: 100%;
         max-width: 1440px;
-        margin: 0 auto;
+        margin: 72px auto;
     }
 
     .About__me {
-        width: 35%;
-        height: 100%;
+        grid-area: ".About__me";
+        display: flex;
+        width: 85%;
+        height: max-content;
+        margin-bottom: var(--margin1);
+    }
+
+    .About__me--title-courses h3 {
+        margin-top: 0;
+    }
+
+    .About__me--info {
+        margin-right: var(--margin1);
     }
     
     .About__me--courses-item {
@@ -246,15 +382,36 @@
     }
 
     .About__skills {
-        width: 35%;
-        height: 100%;
+        grid-area: ".About__skills";
+        width: 85%;
+        height: max-content;
+        margin-top: -70px;
     }
-    
+
     .About__skills--animation {
         width: 100%;
+        height: max-content;
+        margin-top: 0;
+    }
+
+    .About__skills--animation svg {
+        width: 38px;
+        height: 38px;
     }
 
     .About__skills--complement {
         width: 100%;
+    }
+
+    .About__skills h3 {
+        margin-bottom: var(--margin2);
+    }
+
+    .About__skills--complements-items {
+        grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    }
+
+    .About__skills--complements-items p {
+        font-size: var(--m);
     }
 }

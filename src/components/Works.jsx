@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './Button'
 import FeaturedWorks from './FeaturedWorks'
 import WorksList from './WorksList'
-import { featuredList, worksList } from '../../api/works.json'
+import { featuredList, worksList } from '../../api/api.json'
 import '../assets/styles/components/Works.css'
 
 const Works = () => {

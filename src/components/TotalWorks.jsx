@@ -1,6 +1,6 @@
 import React from 'react'
 import TotalWorksList from './TotalWorksList'
-import { totalWorks } from '../../api/works.json'
+import { totalWorks } from '../../api/api.json'
 import '../assets/styles/components/TotalWorks.css'
 
 const TotalWorks = () => {

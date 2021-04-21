@@ -8,7 +8,6 @@ import {
   AiFillGithub,
   AiFillTwitterSquare,
   AiFillLinkedin,
-  AiFillInstagram
 } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import '../assets/styles/components/Navbar.css'
@@ -67,9 +66,6 @@ const Navbar = () => {
           <div className='Navbar__links--social'>
             <a href='#' target='_blank' title="Twitter">
               <AiFillTwitterSquare size='28px' />
-            </a>
-            <a href='#' target='_blank' title="Instragram">
-              <AiFillInstagram size='28px' />
             </a>
             <a href='#' target='_blank' title="Linkedin">
               <AiFillLinkedin size='28px' />
