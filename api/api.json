@@ -99,96 +99,47 @@
         {
             "id": 6,
             "number": "06",
-            "title": "Título 6",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "title": "IP Address Tracker",
+            "build": "HTML - CSS - JavaScript - API(leafletjs)",
+            "github": "https://github.com/mxrold/frontend-mentor-ip-address-tracker",
+            "url": "https://mxrold.github.io/frontend-mentor-ip-address-tracker/public/"
         }
     ],
     "totalWorks": [
         {
             "id": 1,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "title": "Frontend Mentor - Four card feature section",
+            "build": "HTML - CSS",
+            "github": "https://github.com/mxrold/four-card-feature-section-master-challenge4",
+            "url": "https://github.com/mxrold/four-card-feature-section-master-challenge4"
         },
         {
             "id": 2,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "title": "Frontend Mentor - Social proof section",
+            "build": "HTML - CSS",
+            "github": "https://github.com/mxrold/social-proof-challenge6",
+            "url": "https://mxrold.github.io/social-proof-challenge6/index.html"
         },
         {
             "id": 3,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "title": "Platzi Conf Hawaii",
+            "build": "HTML - Bootstrap",
+            "github": "https://github.com/mxrold/landing-page-with-bootstrap",
+            "url": "https://mxrold.github.io/landing-page-with-bootstrap/"
         },
         {
             "id": 4,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "title": "Simple weather app",
+            "build": "HTML - CSS - JavaScript",
+            "github": "https://github.com/mxrold/Weather-App",
+            "url": "https://mxrold.github.io/Weather-App/public/index.html"
         },
         {
             "id": 5,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 6,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 7,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 8,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 9,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 10,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 11,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 12,
-            "title": "Lorem ipsum dolor sit amet.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "title": "Frontend Mentor - Fylo landing page",
+            "build": "HTML y CSS",
+            "github": "https://github.com/mxrold/Fylo-landing-page-challenge-8",
+            "url": "https://mxrold.github.io/Fylo-landing-page-challenge-8/index.html"
         }
     ]
 }
