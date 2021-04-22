@@ -67,7 +67,7 @@
     margin: var(--margin3) 0 var(--margin2) 10px;
     background-color: var(--light);
     border-radius: var(--radius3);
-    box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.616);
+    box-shadow: 0px 4px 8px rgba(15, 15, 15, 0.4);
 }
 
 .About__me--courses-item div {
@@ -84,7 +84,6 @@
    font-size: var(--xl);
    font-weight: 500;
    color: var(--light);
-    
 }
 
 .About__me--courses-item img {
@@ -182,11 +181,6 @@
     to { transform: rotate(360deg) translate(-150px) rotate(-360deg); }
 }
 
-.About__skills--complements-items span:nth-child(4) {
-    color: rgba(240, 80, 48, 1);
-}
-
-
 .svg-two {
     position: relative;
     left: 56px;
@@ -262,7 +256,7 @@
 
 .About__skills--complements-items {
     display: grid;
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     place-items: center;
     grid-gap: 18px;
     width: 100%;
@@ -374,18 +368,27 @@
     }
 
     .About__me--info {
+        min-width: 55%;
         margin-right: var(--margin1);
     }
     
     .About__me--courses-item {
-        min-width: 90%;
+        min-width: 100%;
+        text-align: end;
+    }
+
+    .About__me--courses-item::after {
+        content: "Desliza hacia la derecha";
+        font-size: var(--s);
+        font-weight: 300;
+        color: var(--light);
     }
 
     .About__skills {
         grid-area: ".About__skills";
         width: 85%;
         height: max-content;
-        margin-top: -70px;
+        margin-top: 0px;
     }
 
     .About__skills--animation {
@@ -408,10 +411,17 @@
     }
 
     .About__skills--complements-items {
-        grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+        grid-template: repeat(3, 1fr) / repeat(4, 1fr);
     }
 
     .About__skills--complements-items p {
         font-size: var(--m);
     }
+}
+
+@media screen and (min-width: 1020px) {
+    .About__skills {
+        margin-top: -70px;
+    }
+
 }
