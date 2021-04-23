@@ -29,8 +29,8 @@ const Navbar = () => {
       <div className={!open ? 'Navbar close' : 'Navbar open'}>
         <div className='Navbar__logo'>
           <figure>
-            <Link to='/'>Logo
-              {/* <img src='' alt='' /> */}
+            <Link to='/'>
+              <img src='https://i.ibb.co/8Mx4Kv7/new-logo.png' alt='Logo del sitio Mxrold' />
             </Link>
           </figure>
         </div>
