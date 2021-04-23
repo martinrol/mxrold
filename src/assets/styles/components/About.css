@@ -283,6 +283,10 @@
         min-width: 60%;
     }
 
+    .About__skills {
+        width: 95%;
+    }
+
     .About__skills--animation-one {
         width: 450px;
         height: 450px;
@@ -423,5 +427,4 @@
     .About__skills {
         margin-top: -70px;
     }
-
 }

@@ -5,7 +5,7 @@
     --dark2: #222831;
     --medium: #24272c;
     --gray: #878b92;
-    --lightGray: #b1bbcc;
+    --lightGray: #bcc6d6;
     --lightGray2: #e4d9d9;
     --light: #eeeeee;
     --blue1: #00656A;
@@ -73,7 +73,7 @@ svg:focus {
     display: block;
     width: 100%;
     min-width: 320px;
-    height: 100vh;
+    height: 100%;
 }
 
 @media screen and (min-width: 767px) {

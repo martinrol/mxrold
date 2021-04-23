@@ -21,7 +21,7 @@ const About = () => {
         <div>
           <div className="About__me--title-courses">
             <h3>Certificados</h3>
-            <a href="https://platzi.com/p/Martinrol/" target="_blank">
+            <a href="https://platzi.com/p/Martinrol/" target="_blank" rel="nofollow">
               Ver mi perfil en Platzi
             </a>
           </div>

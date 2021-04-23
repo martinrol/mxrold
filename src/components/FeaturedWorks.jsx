@@ -8,9 +8,7 @@ const FeaturedProjects = ({ image, title, description, build, github, url }) => 
     <div className="Works__item">
       <div className='Works__item--image'>
         <figure>
-          <a href={github} target="_blank" title="Ver proyecto en Github">
-            <img src={image} alt='Imagen del proyecto' />
-          </a>
+          <img src={image} alt='Imagen del proyecto' />
         </figure>
       </div>
       <div className='Works__item--info'>
@@ -23,12 +21,12 @@ const FeaturedProjects = ({ image, title, description, build, github, url }) => 
             </ul>
           </div>
           <div className='Works__item--info-box-links'>
-            <a href={github}target="_blank" title="Enlace de Github">
-              <AiFillGithub size='22px' />
+            <a href={github}target="_blank" title="Enlace de Github" >
+              <AiFillGithub size='24px' />
             </a>
             <span />
-            <a href={url} target="_blank" title="Enlace a la página web">
-              <BiWorld size='22px' />
+            <a href={url} target="_blank" title="Enlace a la página web" >
+              <BiWorld size='24px' />
             </a>
           </div>
         </div>

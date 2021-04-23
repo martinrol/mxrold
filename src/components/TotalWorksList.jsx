@@ -21,7 +21,7 @@ const TotalWorksList = ({ id, title, build, github, url }) => {
                         <AiFillGithub size="28px"/>
                     </a>
                     <a href={url}>
-                        <BiWorld size="28px" title="Enlace al sitio web" />
+                        <BiWorld size="28px" title="Enlace al sitio web"/>
                     </a>
                 </span>
             </div>
