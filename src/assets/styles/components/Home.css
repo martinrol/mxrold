@@ -74,6 +74,11 @@
         max-width: 1440px;
     }
 
+    .Home__intro--greeting {
+      font-size: 5.5rem;
+      color: var(--light);
+  }
+
     .Home__button {
         height: 48px;
     }
