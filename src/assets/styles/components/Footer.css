@@ -3,33 +3,31 @@
     justify-content: flex-end;
     width: 85%;
     height: 50px;
-    margin: 0 auto;
+    margin: 0 auto 36px auto;
     text-align: center;
 }
 
-.Footer a {
-    width: 40px;
-    height: 100%;
-    background-color: var(--blue3);
+.Footer__circle {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--blue3);
+    border-radius: 50%;
+}
+
+.Footer__circle--link {
+    width: 38px;
+    height: 38px;
+    background-color: var(--medium);
+    border-radius: 50%;
+}
+
+.Footer__circle--link a {
     color: var(--light);
-    border-top-left-radius: var(--radius1);
-    border-top-right-radius: var(--radius1);
 }
 
-.Footer a svg {
-    margin-top: 5.5px;
-    animation: arrow 1s ease-in-out infinite;
-
-}
-
-@keyframes arrow {
-    0% {
-        transform: translate(0px, 5px);
-    }
-    50% {
-        transform: translate(0px, 10px);
-    }
-    100% {
-        transform: translate(0px, 5px);
-    }
+.Footer__circle--link a svg {
+    margin-top: 5px;
 }
