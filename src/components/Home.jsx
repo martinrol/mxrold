@@ -1,13 +1,15 @@
 import React from 'react'
 import Button from './Button'
 import '../assets/styles/components/Home.css'
+import Cover from '../assets/static/cover.svg'
 
 const Home = () => {
-  const textMessage = 'Contactame'
+  const textMessage = 'Contacto'
   const rute = '/contacto'
 
   return (
     <>
+      <span className='Cover__image' dangerouslySetInnerHTML={{__html: Cover}}></span>
       <section className='Home' id="Home">
         <div className='Home__intro'>
           <h1>

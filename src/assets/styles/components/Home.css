@@ -1,11 +1,20 @@
 .Home {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 80%;
     height: 100vh;
     margin: 0 auto;
+    z-index: 0;
+}
+
+.Cover__image {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    width: 40vh;
 }
 
 .Home__intro {
@@ -57,6 +66,7 @@
   }
 
 .Home__intro p {
+  width: 50%;
     margin-top: var(--margin3);
     font-size: var(--m);
     font-weight: 400;
@@ -72,6 +82,10 @@
 @media screen and (min-width: 767px) {
     .Home {
         max-width: 1440px;
+    }
+
+    .Cover__image {
+      width: 70vh;
     }
 
     .Home__intro--greeting {
