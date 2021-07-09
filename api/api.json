@@ -2,105 +2,113 @@
     "courses": [
         {
             "id": 1,
-            "title": "Enlace al curso de React Router y Redux",
-            "image": "https://i.ibb.co/7gkpTnQ/image.png",
-            "url": "https://platzi.com/p/Martinrol/curso/1652-react-router-redux/diploma/detalle/"
+            "title": "Enlace al curso de React Hooks",
+            "image": "https://i.ibb.co/4F7gNmf/react-hooks.png",
+            "url": "https://platzi.com/p/mxrold/curso/2118-react-hooks/diploma/detalle/"
         },
         {
             "id": 2,
-            "title": "Enlace al curso de Frontend Developer",
-            "image": "https://i.ibb.co/J5zvCV5/image.png",
-            "url": "https://platzi.com/p/Martinrol/curso/1640-frontend-developer/diploma/detalle/"
+            "title": "Enlace al curso de React Native",
+            "image": "https://i.ibb.co/cQm8Fgn/react-native.png",
+            "url": "https://platzi.com/p/mxrold/curso/2043-react-native/diploma/detalle/"
         },
         {
             "id": 3,
-            "title": "Enlace al curso de React Hooks",
-            "image": "https://i.ibb.co/7bN194Z/image.png",
-            "url": "https://platzi.com/p/Martinrol/curso/2118-react-hooks/diploma/detalle/"
+            "title": "Enlace al curso de Git y Github",
+            "image": "https://i.ibb.co/XpJjSfb/git-github.png",
+            "url": "https://platzi.com/p/mxrold/curso/1557-git-github/diploma/detalle/"
         },
         {
             "id": 4,
-            "title": "Enlace al curso de Git y Github",
-            "image": "https://i.ibb.co/7jmCbK0/image.png",
-            "url": "https://platzi.com/p/Martinrol/curso/1557-git-github/diploma/detalle/"
+            "title": "Enlace al curso de React Router y Redux",
+            "image": "https://i.ibb.co/rvnLbX1/react-redux.png",
+            "url": "https://platzi.com/p/mxrold/curso/1652-react-router-redux/diploma/detalle/"
+        },
+        {
+            "id": 5,
+            "title": "Enlace al curso de HTML y CSS",
+            "image": "https://i.ibb.co/3Fbh5b4/html-css.png",
+            "url": "https://platzi.com/p/mxrold/curso/2008-html-css/diploma/detalle/"
+        },
+        {
+            "id": 6,
+            "title": "Enlace al curso de Ingenieria de software",
+            "image": "https://i.ibb.co/DbtfNCF/ing-soft.png",
+            "url": "https://platzi.com/p/mxrold/curso/1098-ingenieria/diploma/detalle/"
         }
     ],
     "featuredList": [
         {
             "id": 1,
-            "title": "Título",
+            "title": "Lucmania",
             "image": "https://images.unsplash.com/photo-1507808973436-a4ed7b5e87c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "Example - Example - Example",
+            "build": "TailwindCSS - React - Firebase",
             "github": "",
             "url": ""
         },
         {
             "id": 2,
-            "title": "Título 2",
-            "image": "https://images.unsplash.com/photo-1613390792897-aa0c06a52332?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-        },
-        {
-            "id": 3,
-            "title": "Título 3",
-            "image": "https://images.unsplash.com/photo-1618166093881-b41b48cf1f9c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
-            
+            "title": "AsterCoin",
+            "image": "https://i.ibb.co/bPqbNVw/astercoin-mxrold.png",
+            "description": "Aplicación movil de criptomonedas que muestra las 100 principales divisas del mercado actual. Permite visualizar los detalles, graficos y precios en los mercados de venta de cada una.",
+            "build": "React Native",
+            "github": "https://github.com/mxrold/astercoin",
+            "url": null
         }
     ],
     "worksList": [
         {
             "id": 1,
             "number": "01",
-            "title": "Título 1",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "img": "https://i.ibb.co/kMWGKGZ/simple-weather-app-mxrold.png",
+            "title": "mxrold website",
+            "build": "CSS - React - Webpack",
+            "github": "https://github.com/mxrold/mxrold-website",
+            "url": "https://mxrold.web.app"
         },
         {
             "id": 2,
             "number": "02",
-            "title": "Título 2",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "img": "https://i.ibb.co/56g3Z3T/rick-and-morty-mxrold.png",
+            "title": "Rick and Morty Landing Page",
+            "build": "CSS - React",
+            "github": "https://github.com/mxrold/rick-and-morty-landing-page",
+            "url": "https://rick-and-morty-landing-p-e6fe4.web.app/"
         },
         {
             "id": 3,
             "number": "03",
-            "title": "Título 3",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "img": "https://i.ibb.co/kMWGKGZ/simple-weather-app-mxrold.png",
+            "title": "Simple Weather App",
+            "build": "HTML - CSS - Javascript",
+            "github": "https://github.com/mxrold/simple-weather-app",
+            "url": "https://mxrold.github.io/simple-weather-app/public/"
         },
         {
             "id": 4,
             "number": "04",
-            "title": "Título 4",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "img": "https://i.ibb.co/1GR1gMc/batatabit-mxrold.png",
+            "title": "BatataBit",
+            "build": "HTML - CSS",
+            "github": "https://github.com/mxrold/batata-bit",
+            "url": "https://mxrold.github.io/batata-bit/"
         },
         {
             "id": 5,
             "number": "05",
-            "title": "Título 5",
-            "build": "Example - Example - Example",
-            "github": "",
-            "url": ""
+            "img": "https://i.ibb.co/ZcPN3SD/platzi-video-mxrold.png",
+            "title": "Platzi Badges",
+            "build": "CSS - Bootstrap - React",
+            "github": "https://github.com/mxrold/platzi-badges/",
+            "url": "https://platzi-badges-f8dd6.web.app/"
         },
         {
             "id": 6,
             "number": "06",
+            "img": "https://i.ibb.co/wKNmtw2/ip-address-tracker.png",
             "title": "IP Address Tracker",
-            "build": "HTML - CSS - JavaScript - API(leafletjs)",
+            "build": "HTML - CSS - JavaScript",
             "github": "https://github.com/mxrold/frontend-mentor-ip-address-tracker",
             "url": "https://mxrold.github.io/frontend-mentor-ip-address-tracker/public/"
         }
@@ -108,17 +116,17 @@
     "totalWorks": [
         {
             "id": 1,
-            "title": "Frontend Mentor - Four card feature section",
+            "title": "Four card feature section",
             "build": "HTML - CSS",
-            "github": "https://github.com/mxrold/four-card-feature-section-master-challenge4",
-            "url": "https://github.com/mxrold/four-card-feature-section-master-challenge4"
+            "github": "https://github.com/mxrold/four-card-feature-section",
+            "url": "https://mxrold.github.io/four-card-feature-section/"
         },
         {
             "id": 2,
-            "title": "Frontend Mentor - Social proof section",
+            "title": "Social proof section",
             "build": "HTML - CSS",
-            "github": "https://github.com/mxrold/social-proof-challenge6",
-            "url": "https://mxrold.github.io/social-proof-challenge6/index.html"
+            "github": "https://mxrold.github.io/social-proof-landing-page/",
+            "url": "https://github.com/mxrold/social-proof-landing-page"
         },
         {
             "id": 3,
@@ -129,17 +137,17 @@
         },
         {
             "id": 4,
-            "title": "Simple weather app",
-            "build": "HTML - CSS - JavaScript",
-            "github": "https://github.com/mxrold/Weather-App",
-            "url": "https://mxrold.github.io/Weather-App/public/index.html"
+            "title": "Fylo landing page",
+            "build": "HTML - CSS",
+            "github": "https://github.com/mxrold/fylo-landing-page",
+            "url": "https://mxrold.github.io/fylo-landing-page/"
         },
         {
             "id": 5,
-            "title": "Frontend Mentor - Fylo landing page",
-            "build": "HTML y CSS",
-            "github": "https://github.com/mxrold/Fylo-landing-page-challenge-8",
-            "url": "https://mxrold.github.io/Fylo-landing-page-challenge-8/index.html"
+            "title": "Validator emails",
+            "build": "HTML - CSS - Javascript",
+            "github": "https://github.com/mxrold/valitador-emails",
+            "url": "https://mxrold.github.io/valitador-emails/"
         }
     ]
 }

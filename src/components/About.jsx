@@ -21,8 +21,8 @@ const About = () => {
         <div>
           <div className="About__me--title-courses">
             <h3>Certificados</h3>
-            <a href="https://platzi.com/p/Martinrol/" target="_blank" rel="nofollow">
-              Ver mi perfil en Platzi
+            <a href="https://platzi.com/p/mxrold/" target="_blank" rel="nofollow">
+              Todos los certificados
             </a>
           </div>
           <article className="About__me--courses">
@@ -98,6 +98,9 @@ const About = () => {
             </p>
             <p>
               React
+            </p>
+            <p>
+              React Native
             </p>
             <p> 
               Git

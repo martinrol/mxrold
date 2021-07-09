@@ -1,12 +1,15 @@
 import React from 'react'
-import { BiWorld } from 'react-icons/bi'
+import { RiShareBoxLine } from 'react-icons/ri'
 import { AiFillGithub } from 'react-icons/ai'
 import '../assets/styles/components/WorksList.css'
 
-const ListOfWorks = ({ number, title, build, github, url }) => {
+const ListOfWorks = ({ number, img, title, build, github, url }) => {
   return (
     <div className='Works__projects--item'>
       <article className='Works__projects--item-container'>
+        <figure className='Works__projects--item-container-image'>
+          <img src={img} alt={title} title={`Imagen de ${title}`}/>
+        </figure>
         <div className='Works__projects--item-container-number'>
           <div className='Works__projects--item-container-number-circle'>
             {number}
@@ -24,7 +27,7 @@ const ListOfWorks = ({ number, title, build, github, url }) => {
           </a>
           <span />
           <a href={url} target="_blank" title="Enlace al sitio web">
-            <BiWorld size='28px' />
+            <RiShareBoxLine size='28px' />
           </a>
         </div>
       </article>

@@ -12,9 +12,17 @@
 }
 
 .About__me h2 {
-    font-size: var(--xl);
+    font-size: var(--xxl);
     font-weight: 500;
     color: var(--light);
+}
+
+.About__me h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: var(--blue3)
 }
 
 .About__me p {
@@ -27,6 +35,7 @@
 .About__me--title-courses {
     width: 100%;
     height: max-content;
+    margin-top: 79px;
 }
 
 .About__me--title-courses h3 {
@@ -73,24 +82,29 @@
 .About__me--courses-item div {
     position: absolute;
     top: 0;
+    z-index: 2;
     width: 30px;
-    background-color: var(--pink);
+    background-color: var(--dark2);
     text-align: center;
+    border-right: 2px solid var(--blue3);
+    border-bottom: 2px solid var(--blue3);
     border-top-left-radius: var(--radius3);
     border-bottom-right-radius: var(--radius1);
 }
 
 .About__me--courses-item p {
-   font-size: var(--xl);
-   font-weight: 500;
-   color: var(--light);
+   font-size: 2.8rem;
+   font-weight: 400;
+   color: var(--lightGray);
 }
 
 .About__me--courses-item img {
+    z-index: 1;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: var(--radius3);
+    filter: brightness(90%);
 }
 
 .About__skills {
@@ -122,7 +136,7 @@
     width: 300px;
     height: 300px;
     margin: 0 auto;
-    border: 2px solid var(--dark2);
+    border: 2px solid var(--darkBlue1);
     border-radius: 50%;
 }
 
@@ -134,7 +148,7 @@
     width: 80%;
     height: 80%;
     margin: 0 auto;
-    border: 2px solid var(--dark2);
+    border: 2px solid var(--darkBlue1);
     border-radius: 50%;
 }
 
@@ -145,7 +159,7 @@
     width: 70%;
     height: 70%;
     margin: 0 auto;
-    border: 2px solid var(--dark2);
+    border: 2px solid var(--darkBlue1);
     border-radius: 50%;
 }
 
@@ -156,7 +170,7 @@
     width: 60%;
     height: 60%;
     margin: 0 auto;
-    border: 2px solid var(--dark2);
+    border: 2px solid var(--darkBlue1);
     border-radius: 50%;
 }
 
@@ -368,9 +382,9 @@
     }
 
     .About__me--title-courses h3 {
-        margin-top: 0;
+        margin-top: 79px;
     }
-
+    
     .About__me--info {
         min-width: 55%;
         margin-right: var(--margin1);
@@ -378,6 +392,7 @@
     
     .About__me--courses-item {
         min-width: 100%;
+        height: 250px;
         text-align: end;
     }
 

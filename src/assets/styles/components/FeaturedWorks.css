@@ -23,8 +23,8 @@
     height: 100%;
     max-height: 300px;
     object-fit: cover;
-    border-top-left-radius: var(--radius3);
-    border-top-right-radius:var(--radius3);
+    border-top-left-radius: var(--radius2);
+    border-top-right-radius:var(--radius2);
 }
 
 .Works__item--info {
@@ -103,10 +103,6 @@
         margin-bottom: 90px;
     }
 
-    .Works__item:nth-child(3) {
-        flex-direction: row-reverse;
-    }
-
     .Works__item--image {
         width: 55%;
         max-height: 350px;
@@ -119,15 +115,20 @@
 
     .Works__item--image img {
         max-height: 350px;
-        border-bottom-left-radius: var(--radius3);
-        border-bottom-right-radius: var(--radius3);
+        padding: 5px;
+        border: 3px solid var(--blue1);
+        border-bottom-left-radius: var(--radius2);
+        border-bottom-right-radius: var(--radius2);
     }
 
     .Works__item--info {
         position: relative;
-        right: 15px;
+        right: 3px;
         width: 45%;
-        border-top-left-radius: var(--radius2);
-        border-top-right-radius:var(--radius2);
+        border-top: 3px solid var(--blue1);
+        border-right: 3px solid var(--blue1);
+        border-bottom: 3px solid var(--blue1);
+        border-top-right-radius: var(--radius2);
+        border-bottom-left-radius: 0;
     }
 }

@@ -8,20 +8,20 @@
     --lightGray: #c9d2df;
     --lightGray2: #e4d9d9;
     --light: #eeeeee;
-    --blue1: #00656A;
+    --blue1: #1F4068;
     --blue2: #008288;
     --blue3: #00adb5;
     --blue4: #2ec4cc;
-    --purple1: #312450;
-    --purple2: #493381;
+    --darkBlue1: #16213E;
+    --darkBlue2: #1D2D50;
     --pink: #ff2e63;
     --margin1: 36px;
     --margin2: 28px;
     --margin3: 11px;
-    --xxl: 3.4rem; /* h1 */
-    --xl: 3rem; /* h2 */
-    --l: 1.9rem; /* h3 */
-    --m: 1.7rem; /* p, a */
+    --xxl: 5rem; /* h1 */
+    --xl: 4rem; /* h2 */
+    --l: 2.4rem; /* h3 */
+    --m: 1.8rem; /* p, a */
     --s: 1.5rem; /* p, button, form(*) */
     --radius1: 12px;
     --radius2: 8px;
@@ -42,7 +42,7 @@ html {
 }
 
 body {
-    background-color: var(--purple2);
+    background-color: var(--darkBlue2);
 }
 
 li {
@@ -60,13 +60,20 @@ h1, h2, h3, a, button {
 
 a:focus,
 button:focus, 
-textarea:focus, 
-input:focus, 
-label:focus,
 svg:focus {
     outline: 2px dashed var(--pink);
-    outline-offset: 3px;
+    outline-offset: 1.5px;
     transition: all 0.3s ease-out;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--darkBlue1);
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--lightGray);
 }
 
 #app {
@@ -80,15 +87,5 @@ svg:focus {
     #app {
         display: flex;
         height: max-content;
-    }
-
-    ::-webkit-scrollbar {
-        width: 12px;
-    }
-    ::-webkit-scrollbar-track {
-        background-color: var(--purple1);
-    }
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--lightGray);
     }
 }

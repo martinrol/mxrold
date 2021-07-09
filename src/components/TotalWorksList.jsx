@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiWorld } from 'react-icons/bi'
+import { RiShareBoxLine } from 'react-icons/ri'
 import { AiFillGithub } from 'react-icons/ai'
 import '../assets/styles/components/TotalWorksList.css'
 
@@ -21,7 +21,7 @@ const TotalWorksList = ({ id, title, build, github, url }) => {
                         <AiFillGithub size="28px"/>
                     </a>
                     <a href={url}>
-                        <BiWorld size="28px" title="Enlace al sitio web"/>
+                        <RiShareBoxLine size="28px" title="Enlace al sitio web"/>
                     </a>
                 </span>
             </div>

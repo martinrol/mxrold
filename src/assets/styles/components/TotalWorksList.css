@@ -3,7 +3,7 @@
     grid-template: auto / .3fr 1fr .7fr;
     width: 100%;
     height: max-content;
-    border-bottom: 1px solid var(--purple2);
+    border-bottom: 1px solid var(--darkBlue2);
 }
 
 .TotalWorks__item:last-child {
@@ -20,7 +20,7 @@
     height: max-content;
     font-size: var(--s);
     color: var(--lightGray);
-    border-right: 1px solid var(--purple2);
+    border-right: 1px solid var(--darkBlue2);
 }
 
 .TotalWorks__item--id {
@@ -75,7 +75,7 @@
         font-weight: 400;
         background-color: var(--dark1);
         color: var(--lightGray);
-        border-right: 1px solid var(--purple2);
+        border-right: 1px solid var(--darkBlue2);
     }
 
     .TotalWorks__item--id,

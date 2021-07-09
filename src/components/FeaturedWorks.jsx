@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiWorld } from 'react-icons/bi'
+import { RiShareBoxLine } from 'react-icons/ri'
 import { AiFillGithub } from 'react-icons/ai'
 import '../assets/styles/components/FeaturedWorks.css'
 
@@ -26,7 +26,7 @@ const FeaturedProjects = ({ image, title, description, build, github, url }) => 
             </a>
             <span />
             <a href={url} target="_blank" title="Enlace a la página web" >
-              <BiWorld size='24px' />
+              <RiShareBoxLine size='24px' />
             </a>
           </div>
         </div>

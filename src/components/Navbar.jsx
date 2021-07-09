@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className='Navbar__logo'>
           <figure>
             <Link to='/'>
-              <img src='https://i.ibb.co/8Mx4Kv7/new-logo.png' alt='Logo del sitio Mxrold' />
+              <img src='https://i.ibb.co/64SY1G6/logo-mxrold.png' alt='Logo del sitio Mxrold' />
             </Link>
           </figure>
         </div>
@@ -67,10 +67,10 @@ const Navbar = () => {
             <a href='#' target='_blank' title="Twitter">
               <AiFillTwitterSquare size='28px' />
             </a>
-            <a href='#' target='_blank' title="Linkedin">
+            <a href='https://www.linkedin.com/in/martindavidroldan/' target='_blank' title="Linkedin">
               <AiFillLinkedin size='28px' />
             </a>
-            <a href='#' target='_blank' title="Github">
+            <a href='https://github.com/mxrold' target='_blank' title="Github">
               <AiFillGithub size='28px' />
             </a>
           </div>

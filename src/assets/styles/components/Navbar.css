@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
     height: 8vh;
-    background-color: var(--purple1);
+    background-color: var(--darkBlue1);
 }
 
 .btn-navbar-burger {
@@ -20,7 +20,7 @@
     width: 100%;
     height: 92vh;
     margin-top: -100px;
-    background-color: var(--purple1);
+    background-color: var(--darkBlue1);
     -webkit-animation: Navbar 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: Navbar 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -52,14 +52,14 @@
     justify-content: center;
     width: 100%;
     height: 25%;
-    background-color: var(--purple1);
+    background-color: var(--darkBlue1);
 }
 
 .Navbar__logo figure {
     width: 100%;
-    max-width: 150px;
+    max-width: 130px;
     height: 100%;
-    max-height: 110px;
+    max-height: 90px;
 }
 
 .Navbar__logo a {
@@ -124,7 +124,7 @@
     justify-content: space-between;
     width: 80%;
     height: max-content;
-    margin-bottom: var(--margin2);
+    margin-bottom: 10vh;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
@@ -155,12 +155,13 @@
         top: 0;
         bottom: 0;
         right: 0;
+        z-index: 2;
         min-width: max-content;
         max-width: 15%;
         height: 100vh;
         margin-top: 0;
         -webkit-animation: none;
-	        animation: none;
+        animation: none;
     }  
 
     .open {
@@ -195,8 +196,9 @@
 
     .Navbar__links--social {
         flex-wrap: wrap;
+        margin-bottom: var(--margin2);
     }
-
+   
     .Navbar__links--social a {
         margin-top: 6px;
     }
