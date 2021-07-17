@@ -58,22 +58,19 @@ h1, h2, h3, a, button {
     letter-spacing: 1px;
 }
 
+h2 {
+    margin-bottom: var(--margin3);
+    font-size: var(--xl);
+    font-weight: 500;
+    color: var(--light);
+}
+
 a:focus,
 button:focus, 
 svg:focus {
     outline: 2px dashed var(--pink);
     outline-offset: 1.5px;
     transition: all 0.3s ease-out;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background-color: var(--darkBlue1);
-}
-::-webkit-scrollbar-thumb {
-    background-color: var(--lightGray);
 }
 
 #app {
@@ -83,9 +80,27 @@ svg:focus {
     height: 100%;
 }
 
+@media screen and (min-width: 480px) {
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: var(--darkBlue1);
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--lightGray);
+    }
+}
+
 @media screen and (min-width: 767px) {
     #app {
         display: flex;
         height: max-content;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    h2 {
+        font-size: var(--xxl);
     }
 }

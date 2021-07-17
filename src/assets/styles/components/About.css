@@ -11,12 +11,6 @@
     margin: 0 auto;
 }
 
-.About__me h2 {
-    font-size: var(--xxl);
-    font-weight: 500;
-    color: var(--light);
-}
-
 .About__me h2::after {
     content: '';
     display: block;
@@ -139,7 +133,6 @@
     border: 2px solid var(--darkBlue1);
     border-radius: 50%;
 }
-
 
 .About__skills--animation-two {
     display: flex;

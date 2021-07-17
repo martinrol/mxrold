@@ -6,7 +6,7 @@
 
 .Home__container--curve {
   position: relative;
-  height: 90vh;
+  height: 100vh;
   background-color: var(--blue1);
   z-index: 1;
 }
@@ -120,5 +120,11 @@
 
   .Home__button {
       height: 48px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .Home__container--curve {
+    height: 90vh;
   }
 }

@@ -12,12 +12,6 @@
     margin: 0 auto;
 }
 
-.Works__title h2 {
-    font-size: var(--xxl);
-    font-weight: 500;
-    color: var(--light);
-}
-
 .Works__title h2::after {
     content: '';
     display: block;
@@ -60,7 +54,7 @@
     }  
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1020px) {
     .Works {
         margin: 144px auto;
     }
