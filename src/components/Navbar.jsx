@@ -5,9 +5,6 @@ import {
   AiFillLayout,
   AiTwotoneMail,
   AiFillRead,
-  AiFillGithub,
-  AiFillTwitterSquare,
-  AiFillLinkedin,
 } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import '../assets/styles/components/Navbar.css'
@@ -63,16 +60,8 @@ const Navbar = () => {
               </Link>
             </ul>
           </nav>
-          <div className='Navbar__links--social'>
-            <a href='#' target='_blank' title="Twitter">
-              <AiFillTwitterSquare size='28px' />
-            </a>
-            <a href='https://www.linkedin.com/in/martindavidroldan/' target='_blank' title="Linkedin">
-              <AiFillLinkedin size='28px' />
-            </a>
-            <a href='https://github.com/mxrold' target='_blank' title="Github">
-              <AiFillGithub size='28px' />
-            </a>
+          <div className="Navbar__links--cv">
+            <Link className="Navbar__links--cv-button" to="/curriculum">Curriculum</Link>
           </div>
         </div>
 

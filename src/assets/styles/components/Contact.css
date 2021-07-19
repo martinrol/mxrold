@@ -15,14 +15,6 @@
     margin: 0 auto;
 }
 
-.Contact__info h2::after {
-        content: '';
-        display: block;
-        width: 40px;
-        height: 5px;
-        background-color: var(--blue3);
-}
-
 .Contact__info p {
     margin-top: var(--margin3);
     font-size: var(--m);

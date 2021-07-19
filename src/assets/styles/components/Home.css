@@ -1,6 +1,9 @@
 .Home {
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: max-content;
+  min-height: 100vh;
+  max-height: max-content;
   margin: 0 auto;
 }
 

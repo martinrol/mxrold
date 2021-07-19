@@ -1,0 +1,37 @@
+
+.Navbar__social {
+    display: none;
+}
+
+@media screen and (min-width: 1020px) {
+    .Navbar__social {
+        display: block;
+        position: fixed;
+        left: calc(97.5% - 28px);
+        z-index: 3;
+        height: 140px;
+    }
+    
+    .Navbar__social--links::before {
+        content: "";
+        width: 2px;
+        height: 86px;
+        background-color: var(--blue3);
+    }
+    
+    .Navbar__social--links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .Navbar__social--links a {
+        margin-top: 8px;
+        color: var(--lightGray);
+    }
+    
+    .Navbar__social--links a:hover {
+        color: var(--light);
+    }
+}

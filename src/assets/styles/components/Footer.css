@@ -1,7 +1,7 @@
 .Footer {
     position: relative;
     width: 100%;
-    height: 74px;
+    height: 120px;
     margin-top: 144px;
 }
 
@@ -14,7 +14,7 @@
 .Footer__wave--bottom {
     position: absolute;
     bottom: 0;
-    height: 74px;
+    height: 120px;
     width: 100%;
     background-color: var(--blue1);
     transform: rotate(180deg);
@@ -50,11 +50,30 @@
     width: 100%;
 }
 
-.Footer__elements--built {
+.Footer__elements--info {
     margin-left: 40px;
+}
+
+.Footer__elements--info-built {
     font-size: var(--s);
     font-weight: 400;
     color: var(--blue4);
+}
+
+.Footer__elements--info-links {
+    margin-top: var(--margin3);
+}
+
+.Footer__elements--info-links a {
+    color: var(--lightGray);
+}
+
+.Footer__elements--info-links a:first-child {
+    margin-right: 8px;
+}
+
+.Footer__elements--info-links a:hover {
+    color: var(--light);
 }
 
 .Footer__elements--circle {
@@ -63,7 +82,7 @@
     justify-content: center;
     width: 38px;
     height: 38px;
-    margin-top: 25.5px;
+    margin-top: 60px;
     margin-right: 40px;
     border: 2px solid var(--blue3);
     border-radius: 50%;

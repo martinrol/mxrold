@@ -12,14 +12,6 @@
     margin: 0 auto;
 }
 
-.Works__title h2::after {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 5px;
-    background-color: var(--blue3);
-}
-
 .Works__subtitle {
     width: 100%;
     height: max-content;
@@ -34,7 +26,7 @@
 }
 
 .Works__projects {
-    width: 95%;
+    width: 85%;
     height: max-content;
     margin: 0 auto;
 }

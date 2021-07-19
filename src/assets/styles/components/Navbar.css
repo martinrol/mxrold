@@ -18,7 +18,7 @@
 
 .Navbar {
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     margin-top: -100px;
     background-color: var(--darkBlue1);
     -webkit-animation: Navbar 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 25%;
+    height: 15%;
     background-color: var(--darkBlue1);
 }
 
@@ -73,17 +73,13 @@
 }
 
 .Navbar__links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    height: 75%;
+    height: calc(85% - 8vh);
 }
 
 .Navbar__links-nav {
     width: 100%;
-    height: 100%;
+    height: max-content;
 }
 
 .Navbar__links-nav ul {
@@ -119,25 +115,29 @@
     margin-right: 18px;
 }
 
-.Navbar__links--social {
-    display: inherit;
-    justify-content: space-between;
-    width: 80%;
+.Navbar__links--cv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: max-content;
-    margin-bottom: 10vh;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
+    margin-top: 32px;
 }
-
-.Navbar__links--social a {
-    width: 28px;
-    height: 28px;
+  
+.Navbar__links--cv-button {
+    height: 40px;
+    margin-right: 10px;
+    padding: 5px 6px;
+    font-size: var(--m);
+    font-weight: 400;
+    background-color:rgba(0, 130, 136, .15);
     color: var(--lightGray);
+    border: 2px solid var(--blue2);
+    border-radius: var(--radius3);
+    cursor: pointer;
 }
 
-.Navbar__links--social a:hover {
-    color: var(--light);
+.Navbar__links--cv-button:hover {
+    background-color:rgba(0, 130, 136, .5);
 }
 
 .open {
@@ -173,8 +173,16 @@
         height: 0px;
     }
 
+    .Navbar__logo {
+        height: 25%;
+    }
+
     .Navbar__links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-between;
+        height: 65%;
     }
 
     .Navbar__links-nav {
@@ -194,14 +202,10 @@
         padding: 16px 5px 16px 5px;
     }
 
-    .Navbar__links--social {
-        flex-wrap: wrap;
-        margin-bottom: var(--margin2);
+    .Navbar__links--cv {
+        margin-top: 0;
     }
-   
-    .Navbar__links--social a {
-        margin-top: 6px;
-    }
+
 }
 
 @media screen and (min-width: 1180px) {

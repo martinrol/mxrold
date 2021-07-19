@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+
 import '../assets/styles/components/Home.css'
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
   const rute = '/contacto'
 
   return (
-    <section className='Home' id="Home">
+    <section className='Home' id="Home">  
       <section class="Home__container--curve">
         <div class="Home__wave--curve"></div>
           <div className='Home__intro'>
