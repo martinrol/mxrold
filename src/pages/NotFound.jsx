@@ -9,7 +9,7 @@ const NotFound = () => {
   return (
     <div className='NotFound'>
       <div className='NotFound__info'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod ratione et blanditiis necessitatibus atque aliquid, veritatis vitae dicta officiis.</p>
+        <h3>404 ¡Nada puede malir sal!</h3>
       </div>
       <div className='NotFound__button'>
         <Button text={textMessage} rute={rute} />

@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <section className="Contact">
       <div className="Contact__info">
-        <h2>Contactame</h2>
+        <h2>Contáctame</h2>
         <p>Llegaste hasta la parte de contacto 🚀... Espero que te hayan gustado mis proyectos. Si quieres darme alguna recomendación, charlar sobre diversos temas o ponerte en contacto conmigo puedes hacerlo mediante el formulario y también por las redes sociales. ¡Será un gusto conversar contigo!</p>
       </div>
       <div className="Contact__me">

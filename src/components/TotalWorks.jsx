@@ -8,7 +8,6 @@ const TotalWorks = () => {
         <section className="TotalWorks">
             <div className="TotalWorks__title">
                 <h2>Lista de proyectos</h2>
-                <p>Varios proyectos que realice a lo largo del tiempo</p>
             </div>
             <div className="TotalWorks__categories">
                 <p>#</p>

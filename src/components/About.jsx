@@ -12,17 +12,17 @@ const About = () => {
       <div className="About__me">
         <div className="About__me--info">
           <h2>Acerca de mí</h2>
-          <p>¡Hola! Soy desarrollador frontend junior en las tecnologías de HTML, CSS, JavaScript y React.</p>
-          <p>Desde hace un año decidí dedicarme al mundo de la programación y tecnología luego de haber conocido todos los productos digitales y aplicaciones geniales que se pueden crear tan solo con una computadora, internet, creatividad, compromiso y muchas ganas.</p>
-          <p>Soy autodidacta, estudió en la plataforma de educación online Platzi, donde me centro principalmente en el área de desarrollo web y diversos temas de mi interés tales como otros lenguajes de programación, diseño e inglés.</p>
-          <p>Me gusta aprender sobre nuevos contenidos, proponerme retos y mejorar para superarme día a día.</p>
-          <p>Si quieres saber más sobre mi, te invito a que veas algunos de mis proyectos.</p>
+          <p>¡Hola! Soy Frontend Developer en las tecnologías de HTML, CSS, JavaScript y React.</p>
+          <p>Desde hace un año decidí dedicarme al mundo de la programación y tecnología luego de haber conocido todos los productos digitales y aplicaciones geniales que se pueden crear, tan solo con una computadora, creatividad, compromiso y muchas ganas.</p>
+          <p>Soy autodidacta, estudio en la plataforma de educación online Platzi, donde me centro principalmente en el área de desarrollo web y diversos temas de mi interés tales como otras tecnologías, diseño e inglés.</p>
+          <p>Me gusta aprender sobre nuevos contenidos, proponerme retos y mejorar diariamente para superarme.</p>
+          <p>Si quieres saber más sobre mí, te invito a que veas algunos de mis proyectos.</p>
         </div>
         <div>
           <div className="About__me--title-courses">
             <h3>Certificados</h3>
             <a href="https://platzi.com/p/mxrold/" target="_blank" rel="nofollow">
-              Todos los certificados
+              Ver todos los certificados
             </a>
           </div>
           <article className="About__me--courses">

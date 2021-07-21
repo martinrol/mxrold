@@ -6,8 +6,8 @@ import { featuredList, worksList } from '../../api/api.json'
 import '../assets/styles/components/Works.css'
 
 const Works = () => {
-  const textMessage = 'Ver mas proyectos'
-  const rute = '/proyectos/listado'
+  const textMessage = 'Ver más proyectos'
+  const rute = '/proyectos-lista'
 
   return (      
     <section className='Works'>
