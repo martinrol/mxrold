@@ -50,25 +50,25 @@ const About = () => {
                 <div className="About__skills--animation-four">
                   <div className="About__skills--animation-five">
                     <span className="svg-one">
-                      <AiFillHtml5  size="28px" title="Logo de HTML" tabIndex="0"/>
+                      <AiFillHtml5  size="28px" title="Logo de HTML"/>
                     </span>
                     <span className="svg-two">
-                      <DiCss3 size="28px" title="Logo de CSS" tabIndex="0"/>
+                      <DiCss3 size="28px" title="Logo de CSS"/>
                     </span>
                     <span className="svg-three">
-                      <SiBootstrap size="28px" title="Logo de Bootstrap" tabIndex="0"/>
+                      <SiBootstrap size="28px" title="Logo de Bootstrap"/>
                     </span>
                     <span className="svg-four">
-                      <SiTailwindcss size="28px" title="Logo de Tailwind CSS" tabIndex="0"/>
+                      <SiTailwindcss size="28px" title="Logo de Tailwind CSS"/>
                     </span>
                     <span className="svg-five">
-                      <SiJavascript size="28px" title="Logo de JavaScript" tabIndex="0"/>
+                      <SiJavascript size="28px" title="Logo de JavaScript"/>
                     </span>
                     <span className="svg-six">
-                      <SiStyledComponents size="28px" title="Logo de Styled Components" tabIndex="0"/>
+                      <SiStyledComponents size="28px" title="Logo de Styled Components"/>
                     </span>
                     <span className="svg-seven">
-                      <FaReact size="28px" title="Logo de React" tabIndex="0"/>
+                      <FaReact size="28px" title="Logo de React"/>
                     </span>
                   </div>
                 </div>

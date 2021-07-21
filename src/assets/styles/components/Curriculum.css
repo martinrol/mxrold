@@ -27,6 +27,14 @@
     border-bottom: 2px solid var(--blue3);
 }
 
+.Curriculum__links a::before {
+    content: ">";
+    display: inline-block;
+    margin-right: 7px;
+    font-weight: 700;
+    color: var(--blue4);
+}
+
 @media screen and (min-width: 767px) {
     .Curriculum__links {
         width: 40%;

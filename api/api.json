@@ -40,12 +40,12 @@
     "featuredList": [
         {
             "id": 1,
-            "title": "Lucmania",
-            "image": "https://images.unsplash.com/photo-1507808973436-a4ed7b5e87c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi qui fuga adipisci necessitatibus quae eos optio atque quibusdam maxime.",
-            "build": "TailwindCSS - React - Firebase",
-            "github": "",
-            "url": ""
+            "title": "Lucmania [En desarollo]",
+            "image": "https://i.ibb.co/1sdtVZN/lucmania-mxrold.png",
+            "description": "Plataforma web para encontrar películas y series aleatorias escogiendo un género. Muestra los detalles del contenido filtrado y permite guardar cada uno de ellos en una lista de favoritos.",
+            "build": "TailwindCSS - React - CI/CD with GitHub Actions and Firebase",
+            "github": "https://github.com/mxrold/lucmania",
+            "url": "https://lucmania-7f96a.web.app/"
         },
         {
             "id": 2,
@@ -61,7 +61,7 @@
         {
             "id": 1,
             "number": "01",
-            "img": "https://i.ibb.co/kMWGKGZ/simple-weather-app-mxrold.png",
+            "img": "https://i.ibb.co/7vc4nWr/website-mxrold.png",
             "title": "mxrold website",
             "build": "CSS - React - Webpack",
             "github": "https://github.com/mxrold/mxrold-website",
@@ -70,11 +70,11 @@
         {
             "id": 2,
             "number": "02",
-            "img": "https://i.ibb.co/56g3Z3T/rick-and-morty-mxrold.png",
-            "title": "Rick and Morty Landing Page",
-            "build": "CSS - React",
-            "github": "https://github.com/mxrold/rick-and-morty-landing-page",
-            "url": "https://rick-and-morty-landing-p-e6fe4.web.app/"
+            "img": "https://i.ibb.co/ZcPN3SD/platzi-video-mxrold.png",
+            "title": "PlatziVideo",
+            "build": "CSS - React - Redux - Webpack",
+            "github": "https://github.com/mxrold/platzi-video",
+            "url": "https://platzivideo-mxrold.netlify.app/"
         },
         {
             "id": 3,
@@ -88,62 +88,76 @@
         {
             "id": 4,
             "number": "04",
-            "img": "https://i.ibb.co/1GR1gMc/batatabit-mxrold.png",
-            "title": "BatataBit",
-            "build": "HTML - CSS",
-            "github": "https://github.com/mxrold/batata-bit",
-            "url": "https://mxrold.github.io/batata-bit/"
+            "img": "https://i.ibb.co/56g3Z3T/rick-and-morty-mxrold.png",
+            "title": "Rick and Morty Landing Page",
+            "build": "CSS - React",
+            "github": "https://github.com/mxrold/rick-and-morty-landing-page",
+            "url": "https://rick-and-morty-landing-p-e6fe4.web.app/"
         },
         {
             "id": 5,
             "number": "05",
-            "img": "https://i.ibb.co/ZcPN3SD/platzi-video-mxrold.png",
-            "title": "Platzi Badges",
-            "build": "CSS - Bootstrap - React",
-            "github": "https://github.com/mxrold/platzi-badges/",
-            "url": "https://platzi-badges-f8dd6.web.app/"
-        },
-        {
-            "id": 6,
-            "number": "06",
             "img": "https://i.ibb.co/wKNmtw2/ip-address-tracker.png",
             "title": "IP Address Tracker",
             "build": "HTML - CSS - JavaScript",
             "github": "https://github.com/mxrold/frontend-mentor-ip-address-tracker",
             "url": "https://mxrold.github.io/frontend-mentor-ip-address-tracker/public/"
+        },
+        {
+            "id": 6,
+            "number": "06",
+            "img": "https://i.ibb.co/1GR1gMc/batatabit-mxrold.png",
+            "title": "BatataBit",
+            "build": "HTML - CSS",
+            "github": "https://github.com/mxrold/batata-bit",
+            "url": "https://mxrold.github.io/batata-bit/"
         }
     ],
     "totalWorks": [
         {
             "id": 1,
+            "title": "Platzi Conf Merch",
+            "build": "HTML - CSS - React - Webpack",
+            "github": "https://github.com/mxrold/Platzi-Conf-Merch-React-Hooks",
+            "url": "https://platzi-conf-merch-d6365.web.app/"
+        },
+        {
+            "id": 2,
+            "title": "Platzi Badges",
+            "build": "HTML - Bootstrap - React",
+            "github": "https://github.com/mxrold/platzi-badges",
+            "url": ""
+        },
+        {
+            "id": 3,
             "title": "Four card feature section",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/four-card-feature-section",
             "url": "https://mxrold.github.io/four-card-feature-section/"
         },
         {
-            "id": 2,
+            "id": 4,
             "title": "Social proof section",
             "build": "HTML - CSS",
-            "github": "https://mxrold.github.io/social-proof-landing-page/",
-            "url": "https://github.com/mxrold/social-proof-landing-page"
+            "github": "https://github.com/mxrold/social-proof-landing-page",
+            "url": "https://mxrold.github.io/social-proof-landing-page/"
         },
         {
-            "id": 3,
+            "id": 5,
             "title": "Platzi Conf Hawaii",
             "build": "HTML - Bootstrap",
             "github": "https://github.com/mxrold/landing-page-with-bootstrap",
             "url": "https://mxrold.github.io/landing-page-with-bootstrap/"
         },
         {
-            "id": 4,
+            "id": 6,
             "title": "Fylo landing page",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/fylo-landing-page",
             "url": "https://mxrold.github.io/fylo-landing-page/"
         },
         {
-            "id": 5,
+            "id": 7,
             "title": "Validator emails",
             "build": "HTML - CSS - Javascript",
             "github": "https://github.com/mxrold/valitador-emails",

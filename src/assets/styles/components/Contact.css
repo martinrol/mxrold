@@ -95,8 +95,8 @@
     padding: 12px;
     font-size: var(--m);
     font-weight: 400;
-    color: var(--lightGray2);
-    background-color: var(--pink);
+    color: var(--dark1);
+    background-color: var(--yellow);
     border-radius: var(--radius2);
     text-align: center;
     z-index: 1;
@@ -219,7 +219,7 @@
         flex-direction: row;
         max-width: 1440px;
         min-height: 90vh;
-        margin: 72px 0;
+        margin: 72px auto;
         }
         
         .Contact__info {

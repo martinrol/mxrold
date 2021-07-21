@@ -14,7 +14,7 @@
     --blue4: #2ec4cc;
     --darkBlue1: #16213E;
     --darkBlue2: #1D2D50;
-    --pink: #ff2e63;
+    --yellow: #F7B66F;
     --margin1: 36px;
     --margin2: 28px;
     --margin3: 11px;
@@ -77,7 +77,7 @@ h2::after {
 a:focus,
 button:focus, 
 svg:focus {
-    outline: 2px dashed var(--pink);
+    outline: 2px dashed var(--yellow);
     outline-offset: 1.5px;
     transition: all 0.3s ease-out;
 }
