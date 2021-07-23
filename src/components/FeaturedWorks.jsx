@@ -21,13 +21,23 @@ const FeaturedProjects = ({ image, title, description, build, github, url }) => 
             </ul>
           </div>
           <div className='Works__item--info-box-links'>
-            <a href={github}target="_blank" title="Enlace de Github" >
-              <AiFillGithub size='24px' />
-            </a>
-            <span />
-            <a href={url} target="_blank" title="Enlace a la página web" >
-              <RiShareBoxLine size='24px' />
-            </a>
+            {
+              github === null
+              ? null
+              : <a href={github}target="_blank" title="Enlace de Github" >
+                  <AiFillGithub size='24px' />
+                </a>
+            }
+            {
+              url === null
+              ? null
+              : <>
+                <span />
+                <a href={url} target="_blank" title="Enlace a la página web" >
+                  <RiShareBoxLine size='24px' />
+                </a>
+              </>
+            }
           </div>
         </div>
       </div>

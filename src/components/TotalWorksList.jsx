@@ -17,12 +17,20 @@ const TotalWorksList = ({ id, title, build, github, url }) => {
             </div>
             <div className="TotalWorks__item--links">
                 <span>
-                    <a href={github} title="Enlace de Github">
-                        <AiFillGithub size="28px"/>
-                    </a>
-                    <a href={url}>
-                        <RiShareBoxLine size="28px" title="Enlace al sitio web"/>
-                    </a>
+                    {
+                        github === null
+                        ? null
+                        : <a href={github} title="Enlace de Github">
+                            <AiFillGithub size="28px"/>
+                        </a>
+                    }
+                    {
+                        url === null
+                        ? null
+                        :<a href={url}>
+                            <RiShareBoxLine size="28px" title="Enlace al sitio web"/>
+                        </a>
+                    }
                 </span>
             </div>
         </div>

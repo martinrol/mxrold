@@ -114,6 +114,7 @@
     }
 
     .Works__item--image img {
+        min-height: 320px;
         max-height: 350px;
         padding: 5px;
         border: 3px solid var(--blue1);

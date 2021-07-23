@@ -17,10 +17,11 @@
 }
 
 .Navbar {
+    position: relative;
     width: 100%;
     height: 100vh;
     margin-top: -100px;
-    background-color: var(--darkBlue1);
+    background-color: var(--darkBlue2);
     -webkit-animation: Navbar 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: Navbar 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -51,6 +52,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    border-bottom: 2px solid var(--blue3);
     height: 15%;
     background-color: var(--darkBlue1);
 }
@@ -125,7 +127,6 @@
   
 .Navbar__links--cv-button {
     height: 40px;
-    margin-right: 10px;
     padding: 5px 6px;
     font-size: var(--m);
     font-weight: 400;
@@ -147,6 +148,23 @@
 .close {
     display: block;
 }
+
+.Navbar__waves {
+    display: none;
+}
+
+/* .custom-shape-divider-bottom-1627064670 svg path:nth-child(1) {
+    fill: red;
+}
+
+.custom-shape-divider-bottom-1627064670 svg path:nth-child(2) {
+    fill: blueviolet;
+}
+
+.custom-shape-divider-bottom-1627064670 svg path:nth-child(3) {
+    fill: yellow;
+} */
+
 
 @media screen and (min-width: 767px) {
     .Navbar {
@@ -204,6 +222,26 @@
 
     .Navbar__links--cv {
         margin-top: 0;
+    }
+
+    .Navbar__waves {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left:  calc(100% - 71px);
+        width: 100%;
+        height: max-content;
+        line-height: 0;
+        transform: rotate(270deg);
+    }
+    
+    .Navbar__waves svg {
+        width: 100vw;
+        height: 71px;
+    }
+    
+    .Navbar__waves .shape-fill {
+        fill: var(--blue3);
     }
 
 }
