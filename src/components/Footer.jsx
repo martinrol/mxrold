@@ -5,10 +5,7 @@ import '../assets/styles/components/Footer.css'
 
 const Footer = () => {
     return (
-        <section className="Footer">
-            <section class="Footer__curve--bottom">
-                <div class="Footer__wave--bottom"></div>
-            </section>
+        <footer className="Footer">
             <div className="Footer__elements">
                 <div className="Footer__elements--info">
                     <div className="Footer__elements--info-built">
@@ -20,13 +17,13 @@ const Footer = () => {
                 </div>
                 <div className="Footer__elements--circle">
                     <div className="Footer__elements--circle-link">
-                        <a href="#Home" title="Volver al principio">
+                        <a href="#home" title="Volver al principio">
                             <AiOutlineUp size="18px"/>
                         </a>
                     </div>
                 </div>
             </div>
-        </section>
+        </footer>
     )
 }
 

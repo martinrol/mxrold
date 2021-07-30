@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --dark1: #191d24;
-    --dark2: #222831;
+    --dark1: #1F2937;
+    --dark2: #374151;
     --medium: #24272c;
     --gray: #878b92;
-    --lightGray: #c9d2df;
-    --lightGray2: #e4d9d9;
-    --light: #eeeeee;
-    --blue1: #1F4068;
+    --light: #F3F4F6;
+    --lightGray: #E5E7EB;
+    --lightGray2: #D1D5DB;
+    --blue1: #286bbd;
     --blue2: #008288;
     --blue3: #00adb5;
-    --blue4: #2ec4cc;
+    --blue4: #6dc6b3;
     --darkBlue1: #16213E;
-    --darkBlue2: #1D2D50;
+    --darkBlue2: #25458a;
     --yellow: #F7B66F;
     --margin1: 36px;
     --margin2: 28px;
@@ -42,7 +42,7 @@ html {
 }
 
 body {
-    background-color: var(--darkBlue2);
+    background-color: var(--light);
 }
 
 li {
@@ -62,16 +62,7 @@ h2 {
     margin-bottom: var(--margin3);
     font-size: var(--xl);
     font-weight: 500;
-    color: var(--lightGray);
-}
-
-h2::after {
-    content: '';
-    display: block;
-    width: 40px;
-    height: 5px;
-    background-color: var(--blue3);
-    border-radius: 50px;
+    color: var(--darkBlue2);
 }
 
 a:focus-visible,
@@ -82,6 +73,7 @@ button:focus-visible {
 }
 
 #app {
+    position: relative;
     display: block;
     width: 100%;
     min-width: 320px;
@@ -94,53 +86,54 @@ button:focus-visible {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: var(--blue1);
 }
 
-@keyframes ldio-llix9nuyxn {
+@keyframes loader-screen-container-items {
     0% { transform: translate(14.22px,94.80000000000001px) scale(0); }
    25% { transform: translate(14.22px,94.80000000000001px) scale(0); }
    50% { transform: translate(14.22px,94.80000000000001px) scale(1); }
    75% { transform: translate(94.80000000000001px,94.80000000000001px) scale(1); }
   100% { transform: translate(175.38px,94.80000000000001px) scale(1); }
  }
- @keyframes ldio-llix9nuyxn-r {
+ @keyframes loader-screen-container-items-r {
     0% { transform: translate(175.38px,94.80000000000001px) scale(1); }
   100% { transform: translate(175.38px,94.80000000000001px) scale(0); }
  }
-@keyframes ldio-llix9nuyxn-c {
+@keyframes loader-screen-container-items-c {
     0% { background: #68b954 }
    25% { background: var(--blue4) }
    50% { background: var(--yellow) }
    75% { background: #f47e60 }
   100% { background: #ce5cb5 }
 }
-.ldio-llix9nuyxn div {
+.loader-screen-container-items div {
    position: absolute;
    width: 47.400000000000006px;
    height: 47.400000000000006px;
    border-radius: 50%;
    transform: translate(94.80000000000001px,94.80000000000001px) scale(1);
    background: #e15b64;
-   animation: ldio-llix9nuyxn 1.4492753623188404s infinite cubic-bezier(0,0.5,0.5,1);
+   animation: loader-screen-container-items 1.4492753623188404s infinite cubic-bezier(0,0.5,0.5,1);
 }
-.ldio-llix9nuyxn div:nth-child(1) {
+.loader-screen-container-items div:nth-child(1) {
    background: #f47e60;
    transform: translate(175.38px,94.80000000000001px) scale(1);
-   animation: ldio-llix9nuyxn-r 0.3623188405797101s infinite cubic-bezier(0,0.5,0.5,1), ldio-llix9nuyxn-c 1.4492753623188404s infinite step-start;
-}.ldio-llix9nuyxn div:nth-child(2) {
+   animation: loader-screen-container-items-r 0.3623188405797101s infinite cubic-bezier(0,0.5,0.5,1), loader-screen-container-items-c 1.4492753623188404s infinite step-start;
+}.loader-screen-container-items div:nth-child(2) {
    animation-delay: -0.3623188405797101s;
    background: #e15b64;
-}.ldio-llix9nuyxn div:nth-child(3) {
+}.loader-screen-container-items div:nth-child(3) {
    animation-delay: -0.7246376811594202s;
    background: #f47e60;
-}.ldio-llix9nuyxn div:nth-child(4) {
+}.loader-screen-container-items div:nth-child(4) {
    animation-delay: -1.0869565217391304s;
    background: var(--yellow);
-}.ldio-llix9nuyxn div:nth-child(5) {
+}.loader-screen-container-items div:nth-child(5) {
    animation-delay: -1.4492753623188404s;
    background: var(--blue4);
 }
-.loadingio-spinner-ellipsis-dsywjaa2zuh {
+.loader-screen-container {
    width: 237px;
    height: 237px;
    display: inline-block;
@@ -148,7 +141,7 @@ button:focus-visible {
    background: transparent;
 }
 
-.ldio-llix9nuyxn {
+.loader-screen-container-items {
    width: 100%;
    height: 100%;
    position: relative;
@@ -156,7 +149,7 @@ button:focus-visible {
    backface-visibility: hidden;
    transform-origin: 0 0;
 }
-.ldio-llix9nuyxn div { box-sizing: content-box; }
+.loader-screen-container-items div { box-sizing: content-box; }
 
 
 @media screen and (min-width: 480px) {
@@ -164,16 +157,17 @@ button:focus-visible {
         width: 10px;
     }
     ::-webkit-scrollbar-track {
-        background-color: var(--darkBlue1);
+        background-color: var(--lightGray2);
+        border-radius: 50px;
     }
     ::-webkit-scrollbar-thumb {
-        background-color: var(--lightGray);
+        background-color: var(--gray);
+        border-radius: 50px;
     }
 }
 
 @media screen and (min-width: 767px) {
     #app {
-        display: flex;
         height: max-content;
     }
 }

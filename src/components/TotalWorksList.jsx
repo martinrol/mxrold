@@ -21,14 +21,14 @@ const TotalWorksList = ({ id, title, build, github, url }) => {
                         github === null
                         ? null
                         : <a href={github} title="Enlace de Github">
-                            <AiFillGithub size="28px"/>
+                            <AiFillGithub size="24px"/>
                         </a>
                     }
                     {
                         url === null
                         ? null
                         :<a href={url}>
-                            <RiShareBoxLine size="28px" title="Enlace al sitio web"/>
+                            <RiShareBoxLine size="24px" title="Enlace al sitio web"/>
                         </a>
                     }
                 </span>

@@ -6,9 +6,9 @@
 @media screen and (min-width: 1020px) {
     .Navbar__social {
         display: block;
-        position: fixed;
+        position: absolute;
+        top: 0;
         left: calc(97.5% - 28px);
-        z-index: 3;
         height: 140px;
     }
     

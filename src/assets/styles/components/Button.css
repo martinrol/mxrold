@@ -2,15 +2,19 @@
   position: relative;
   display: inline-block;
   width: 100%;
+  max-width: 360px;
   height: 100%;
   padding: 9px;
   font-size: var(--s);
   font-weight: 500;
   text-transform: uppercase;
-  background-color: var(--blue2);
-  color: var(--lightGray2);
-  border-radius: var(--radius3);
+  background-color: var(--yellow);
+  color: var(--dark1);
+  border-radius: var(--radius1);
   text-align: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 767px) {

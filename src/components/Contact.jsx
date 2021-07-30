@@ -1,5 +1,6 @@
 import React, { useState }  from 'react'
 import emailjs from 'emailjs-com'
+import Email from '../assets/static/email.png'
 import '../assets/styles/components/Contact.css'
 
 const Contact = () => {
@@ -28,10 +29,13 @@ const Contact = () => {
   }
 
   return (
-    <section className="Contact">
+    <section className="Contact" id="contacto">
+      <figure className="Contact__image">
+        <img src={Email} alt="" />
+      </figure>
       <div className="Contact__info">
-        <h2>Contáctame</h2>
-        <p>Llegaste hasta la parte de contacto 🚀... Espero que te hayan gustado mis proyectos. Si quieres darme alguna recomendación, charlar sobre diversos temas o ponerte en contacto conmigo puedes hacerlo mediante el formulario y también por las redes sociales. ¡Será un gusto conversar contigo!</p>
+          <h2>Contáctame</h2>
+          <p>Llegaste hasta la parte de contacto 🚀... Espero que te hayan gustado mis proyectos. Si quieres darme alguna recomendación, charlar sobre diversos temas o ponerte en contacto conmigo puedes hacerlo mediante el formulario y también por las redes sociales. ¡Será un gusto conversar contigo!</p>
       </div>
       <div className="Contact__me">
         <form action="post" onSubmit={handleSendEmail}>
@@ -49,7 +53,6 @@ const Contact = () => {
             </div>
           }
         </form>
-        
       </div>
     </section>
   )

@@ -60,7 +60,6 @@
     "worksList": [
         {
             "id": 1,
-            "number": "01",
             "img": "https://i.ibb.co/7vc4nWr/website-mxrold.png",
             "title": "mxrold website",
             "build": "CSS - React - Webpack",
@@ -69,7 +68,6 @@
         },
         {
             "id": 2,
-            "number": "02",
             "img": "https://i.ibb.co/ZcPN3SD/platzi-video-mxrold.png",
             "title": "PlatziVideo",
             "build": "CSS - React - Redux - Webpack",
@@ -78,7 +76,6 @@
         },
         {
             "id": 3,
-            "number": "03",
             "img": "https://i.ibb.co/kMWGKGZ/simple-weather-app-mxrold.png",
             "title": "Simple Weather App",
             "build": "HTML - CSS - Javascript",
@@ -87,7 +84,6 @@
         },
         {
             "id": 4,
-            "number": "04",
             "img": "https://i.ibb.co/56g3Z3T/rick-and-morty-mxrold.png",
             "title": "Rick and Morty Landing Page",
             "build": "CSS - React",
@@ -96,7 +92,6 @@
         },
         {
             "id": 5,
-            "number": "05",
             "img": "https://i.ibb.co/wKNmtw2/ip-address-tracker.png",
             "title": "IP Address Tracker",
             "build": "HTML - CSS - JavaScript",
@@ -105,7 +100,6 @@
         },
         {
             "id": 6,
-            "number": "06",
             "img": "https://i.ibb.co/1GR1gMc/batatabit-mxrold.png",
             "title": "BatataBit",
             "build": "HTML - CSS",

@@ -8,7 +8,7 @@ import '../assets/styles/components/About.css'
 
 const About = () => {
   return (
-    <section className="About">
+    <section className="About" id="acerca">
       <div className="About__me">
         <div className="About__me--info">
           <h2>Acerca de mí</h2>
@@ -30,9 +30,11 @@ const About = () => {
               courses.map((item) => (
                 <div className="About__me--courses-item" key={item.id}>
                   <a href={item.url} target="_blank" title={item.title}>
-                    <div>
-                      <p>{item.id}</p>
+                  <div className='About__me--courses-item-number'>
+                    <div className='About__me--courses-item-number-circle'>
+                      {item.id}
                     </div>
+                  </div>
                     <img src={item.image} alt={item.title}/>
                   </a>
                 </div>
