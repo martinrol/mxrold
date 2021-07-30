@@ -16,7 +16,7 @@
 .NotFound__info h3 {
     font-size: var(--l);
     font-weight: 400;
-    color: var(--lightGray);
+    color: var(--dark1);
 }
 
 .NotFound__button {

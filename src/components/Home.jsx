@@ -5,7 +5,7 @@ import '../assets/styles/components/Home.css'
 
 const Home = () => {
   const textMessage = 'Contacto'
-  const rute = '/contacto'
+  const rute = '#contacto'
 
   return (
     <section className='Home' id="home">  
