@@ -1,0 +1,37 @@
+{
+    "skills": [
+        {
+            "name": "HTML"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "Bootstrap"
+        },
+        {
+            "name": "Tailwind CSS"
+        },
+        {
+            "name": "Styled Components"
+        },
+        {
+            "name": "JavaScript - ES6"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "React Native"
+        },
+        {
+            "name": "Jest"
+        },
+        {
+            "name": "Git"
+        },
+        {
+            "name": "npm"
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import skills from '../../api/skills.json'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3 } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa'
@@ -80,36 +81,13 @@ const About = () => {
         </div>
         <div className="About__skills--complement">
           <div className="About__skills--complements-items">
-            <p>
-              HTML
-            </p>
-            <p>
-              CSS
-            </p>
-            <p>
-              Bootstrap
-            </p>
-            <p>
-              Tailwind CSS
-            </p>
-            <p>
-              Styled Components
-            </p>
-            <p>
-              JavaScript - ES6
-            </p>
-            <p>
-              React
-            </p>
-            <p>
-              React Native
-            </p>
-            <p> 
-              Git
-            </p>
-            <p> 
-              npm
-            </p>
+              {
+                skills.skills.map(item => 
+                  <p>
+                    {item.name}
+                  </p>
+                )
+              }
           </div>
         </div>
       </div>
