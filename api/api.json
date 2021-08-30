@@ -40,7 +40,7 @@
     "featuredList": [
         {
             "id": 1,
-            "title": "Lucmania [En desarollo]",
+            "title": "Lucmania",
             "image": "https://i.ibb.co/1sdtVZN/lucmania-mxrold.png",
             "description": "Plataforma web para encontrar películas y series aleatorias escogiendo un género. Muestra los detalles del contenido filtrado y permite guardar cada uno de ellos en una lista de favoritos.",
             "build": "TailwindCSS - React - CI/CD with GitHub Actions and Firebase",
@@ -55,6 +55,15 @@
             "build": "React Native",
             "github": "https://github.com/mxrold/astercoin",
             "url": null
+        },
+        {
+            "id": 3,
+            "title": "Petgram",
+            "image": "https://i.ibb.co/rQsrnpd/petgram-mxrold.png",
+            "description": "Plataforma web para descubrir fotos de mascotas. Puedes registrarte, iniciar sesión, filtrar por categorías y darle like a tus imágenes favoritas.",
+            "build": "Styled components - Webpack - Babel - React - PWA",
+            "github": "https://github.com/mxrold/petgram",
+            "url": "https://petgram-phi-lovat.vercel.app/"
         }
     ],
     "worksList": [

@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section className="Contact" id="contacto">
       <figure className="Contact__image">
-        <img src={Email} alt="" />
+        <img src={Email} alt="" loading="lazy" />
       </figure>
       <div className="Contact__info">
           <h2>Contáctame</h2>

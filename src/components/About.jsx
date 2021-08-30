@@ -36,7 +36,7 @@ const About = () => {
                       {item.id}
                     </div>
                   </div>
-                    <img src={item.image} alt={item.title}/>
+                    <img src={item.image} alt={item.title} loading="lazy"/>
                   </a>
                 </div>
               ))
@@ -83,7 +83,7 @@ const About = () => {
           <div className="About__skills--complements-items">
               {
                 skills.skills.map(item => 
-                  <p>
+                  <p key={item.name}>
                     {item.name}
                   </p>
                 )

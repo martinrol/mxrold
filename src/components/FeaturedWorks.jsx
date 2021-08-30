@@ -3,13 +3,13 @@ import { RiShareBoxLine } from 'react-icons/ri'
 import { AiFillGithub } from 'react-icons/ai'
 import '../assets/styles/components/FeaturedWorks.css'
 
-const FeaturedProjects = ({ featuredList }) => {
+const FeaturedProjects = (featuredList) => {
   const { image, title, description, build, github, url } = featuredList
   return (
     <div className="Works__item">
       <div className='Works__item--image'>
         <figure>
-          <img src={image} alt='Imagen del proyecto' />
+          <img src={image} alt='Imagen del proyecto' loading="lazy" />
         </figure>
       </div>
       <div className="Works__item--separator"></div>

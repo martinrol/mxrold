@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { FiMenu, FiX } from 'react-icons/fi'
 import CV_EN from '../files/cv-en-martin-david-roldan.pdf'
 import Logo from '../assets/static/logo.svg'
@@ -27,9 +26,9 @@ const Navbar = () => {
         >
           <div className='Navbar__logo'>
             <figure>
-              <Link to='/'>
+              <a href='#home'>
                 <img src={Logo} alt='Logo del sitio Mxrold' />
-              </Link>
+              </a>
             </figure>
           </div>
           <nav className='Navbar__links-nav'>

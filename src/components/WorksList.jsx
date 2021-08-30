@@ -8,7 +8,7 @@ const ListOfWorks = ({ img, title, build, github, url }) => {
     <div className='Works__projects--item'>
       <article className='Works__projects--item-container'>
         <figure className='Works__projects--item-container-image'>
-          <img src={img} alt={title} title={`Imagen de ${title}`}/>
+          <img src={img} alt={title} title={`Imagen de ${title}`} loading="lazy" />
           <div className='Works__projects--item-container-links'>
             <a href={github} target="_blank" title="Enlace de Github">
               <AiFillGithub size='24px' />

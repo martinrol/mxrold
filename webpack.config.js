@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: '[name][contenthash].js'
   },
   resolve: {
     extensions: ['.js', '.jsx']
@@ -57,7 +57,7 @@ module.exports = {
     }),
 
     new MiniCssExtractPlugin({
-      filename: 'assets/styles/[name].css'
+      filename: 'assets/styles/[name][contenthash].css'
     })
   ],
   devServer: {

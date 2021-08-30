@@ -34,11 +34,11 @@ const Works = () => {
         <h2>Proyectos</h2>
       </div>
 
-  
-      <FeaturedWorks featuredList={featuredList[0]}/>
-
-      <FeaturedWorks featuredList={featuredList[1]}/>
-    
+      {
+        featuredList.map(item => (
+          <FeaturedWorks key={item.id} {...item}/>
+        ))
+      }    
 
       <div className='Works__subtitle'>
         <h3>Lista de proyectos</h3>
