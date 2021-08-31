@@ -86,7 +86,7 @@ button:focus-visible {
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: var(--blue1);
+    background-color: var(--light);
 }
 
 @keyframes loader-screen-container-items {

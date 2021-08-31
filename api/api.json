@@ -2,55 +2,67 @@
     "courses": [
         {
             "id": 1,
-            "title": "Enlace al curso de React Hooks",
-            "image": "https://i.ibb.co/4F7gNmf/react-hooks.png",
-            "url": "https://platzi.com/p/mxrold/curso/2118-react-hooks/diploma/detalle/"
+            "title": "Enlace al curso de React Avanzado",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/react-avanzado.png?alt=media&token=1ec2ad2b-a315-4a1f-843f-3f4d7a783d50",
+            "url": "https://platzi.com/p/mxrold/curso/1601-react-avanzado/diploma/detalle/"
         },
         {
             "id": 2,
             "title": "Enlace al curso de React Native",
-            "image": "https://i.ibb.co/cQm8Fgn/react-native.png",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/react-native.png?alt=media&token=6aba9097-8e8d-4365-8431-1cd06800f4a4",
             "url": "https://platzi.com/p/mxrold/curso/2043-react-native/diploma/detalle/"
         },
         {
             "id": 3,
-            "title": "Enlace al curso de Git y Github",
-            "image": "https://i.ibb.co/XpJjSfb/git-github.png",
-            "url": "https://platzi.com/p/mxrold/curso/1557-git-github/diploma/detalle/"
+            "title": "Enlace al curso de Frontend Developer",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/frontend-developer.png?alt=media&token=6c10068e-8f11-44f9-a667-5e718484c3d6",
+            "url": "https://platzi.com/p/mxrold/curso/1640-frontend-developer-2019/diploma/detalle/"
         },
         {
             "id": 4,
-            "title": "Enlace al curso de React Router y Redux",
-            "image": "https://i.ibb.co/rvnLbX1/react-redux.png",
-            "url": "https://platzi.com/p/mxrold/curso/1652-react-router-redux/diploma/detalle/"
+            "title": "Enlace al curso de Git y GitHub",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/git.png?alt=media&token=e943de0f-54c2-459a-b823-53057af347a6",
+            "url": "https://platzi.com/p/mxrold/curso/1557-git-github/diploma/detalle/"
         },
         {
             "id": 5,
-            "title": "Enlace al curso de HTML y CSS",
-            "image": "https://i.ibb.co/3Fbh5b4/html-css.png",
-            "url": "https://platzi.com/p/mxrold/curso/2008-html-css/diploma/detalle/"
+            "title": "Enlace al curso de Webpack",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/webpack.png?alt=media&token=3f7b9ae1-7f22-49b2-889f-bd2288a78b2f",
+            "url": "https://platzi.com/p/mxrold/curso/2242-webpack/diploma/detalle/"
         },
         {
             "id": 6,
+            "title": "Enlace al curso de Jest con React",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/jest-react.png?alt=media&token=c7437291-0530-4ba2-b42a-7119112834fd",
+            "url": "https://platzi.com/p/mxrold/curso/1788-jest/diploma/detalle/"
+        },
+        {
+            "id": 7,
             "title": "Enlace al curso de Ingenieria de software",
-            "image": "https://i.ibb.co/DbtfNCF/ing-soft.png",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/ingenieria.png?alt=media&token=65006434-2f8d-439b-8d18-5327cadc2183",
             "url": "https://platzi.com/p/mxrold/curso/1098-ingenieria/diploma/detalle/"
+        },
+        {
+            "id": 8,
+            "title": "Enlace al curso de Figma",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/figma.png?alt=media&token=202fa32c-fcc9-4350-823d-3ba12f643d76",
+            "url": "https://platzi.com/p/mxrold/curso/1961-figma/diploma/detalle/"
         }
     ],
     "featuredList": [
         {
             "id": 1,
             "title": "Lucmania",
-            "image": "https://i.ibb.co/1sdtVZN/lucmania-mxrold.png",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/lucmania-mxrold.png?alt=media&token=74e6f4be-1142-4331-9a75-39ac15579121",
             "description": "Plataforma web para encontrar películas y series aleatorias escogiendo un género. Muestra los detalles del contenido filtrado y permite guardar cada uno de ellos en una lista de favoritos.",
-            "build": "TailwindCSS - React - CI/CD with GitHub Actions and Firebase",
+            "build": "TailwindCSS - React - CI/CD",
             "github": "https://github.com/mxrold/lucmania",
             "url": "https://lucmania-7f96a.web.app/"
         },
         {
             "id": 2,
             "title": "AsterCoin",
-            "image": "https://i.ibb.co/bPqbNVw/astercoin-mxrold.png",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/astercoin-mxrold.png?alt=media&token=83483b9e-f970-4037-a8fd-1592be0362bf",
             "description": "Aplicación movil de criptomonedas que muestra las 100 principales divisas del mercado actual. Permite visualizar los detalles, graficos y precios en los mercados de venta de cada una.",
             "build": "React Native",
             "github": "https://github.com/mxrold/astercoin",
@@ -59,9 +71,9 @@
         {
             "id": 3,
             "title": "Petgram",
-            "image": "https://i.ibb.co/rQsrnpd/petgram-mxrold.png",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/petgram-mxrold.png?alt=media&token=27b1fb72-7690-4cfc-b297-81214877bbd9",
             "description": "Plataforma web para descubrir fotos de mascotas. Puedes registrarte, iniciar sesión, filtrar por categorías y darle like a tus imágenes favoritas.",
-            "build": "Styled components - Webpack - Babel - React - PWA",
+            "build": "Styled Components - Webpack - Babel - React - PWA",
             "github": "https://github.com/mxrold/petgram",
             "url": "https://petgram-phi-lovat.vercel.app/"
         }
@@ -69,51 +81,51 @@
     "worksList": [
         {
             "id": 1,
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/kirapp-preview.svg?alt=media&token=96258296-b9ec-4a52-a48f-9183e09457d9",
+            "title": "Kirapp",
+            "build": "Styled Components - Webpack - Babel - React - PWA - CI/CD",
+            "github": "",
+            "url": ""
+        },
+        {
+            "id": 2,
             "img": "https://i.ibb.co/VpdQNZL/mxrold-website.png",
             "title": "mxrold website",
-            "build": "CSS - React - Webpack",
+            "build": "CSS - React - Webpack - CI/CD",
             "github": "https://github.com/mxrold/mxrold-website",
             "url": "https://mxrold.web.app"
         },
         {
-            "id": 2,
-            "img": "https://i.ibb.co/ZcPN3SD/platzi-video-mxrold.png",
+            "id": 3,
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/platzi-video-mxrold.png?alt=media&token=845d8079-d068-4497-aea9-da0630dee533",
             "title": "PlatziVideo",
             "build": "CSS - React - Redux - Webpack",
             "github": "https://github.com/mxrold/platzi-video",
             "url": "https://platzivideo-mxrold.netlify.app/"
         },
         {
-            "id": 3,
-            "img": "https://i.ibb.co/kMWGKGZ/simple-weather-app-mxrold.png",
+            "id": 4,
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/simple-weather-app-mxrold.png?alt=media&token=fde8a356-ab3c-411d-852a-e264a5a58927",
             "title": "Simple Weather App",
             "build": "HTML - CSS - Javascript",
             "github": "https://github.com/mxrold/simple-weather-app",
             "url": "https://mxrold.github.io/simple-weather-app/public/"
         },
         {
-            "id": 4,
-            "img": "https://i.ibb.co/56g3Z3T/rick-and-morty-mxrold.png",
+            "id": 5,
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/rick-and-morty-mxrold.png?alt=media&token=1acb4e11-56a2-4c1a-92e2-9b3f9b8790a6",
             "title": "Rick and Morty Landing Page",
             "build": "CSS - React",
             "github": "https://github.com/mxrold/rick-and-morty-landing-page",
             "url": "https://rick-and-morty-landing-p-e6fe4.web.app/"
         },
         {
-            "id": 5,
-            "img": "https://i.ibb.co/wKNmtw2/ip-address-tracker.png",
+            "id": 6,
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/ip-address-tracker-mxrold.png?alt=media&token=06a0c6d7-ffaa-47d3-af04-5fdaed14b75e",
             "title": "IP Address Tracker",
             "build": "HTML - CSS - JavaScript",
             "github": "https://github.com/mxrold/frontend-mentor-ip-address-tracker",
             "url": "https://mxrold.github.io/frontend-mentor-ip-address-tracker/public/"
-        },
-        {
-            "id": 6,
-            "img": "https://i.ibb.co/1GR1gMc/batatabit-mxrold.png",
-            "title": "BatataBit",
-            "build": "HTML - CSS",
-            "github": "https://github.com/mxrold/batata-bit",
-            "url": "https://mxrold.github.io/batata-bit/"
         }
     ],
     "totalWorks": [
@@ -126,41 +138,48 @@
         },
         {
             "id": 2,
-            "title": "Platzi Badges",
-            "build": "HTML - Bootstrap - React",
-            "github": "https://github.com/mxrold/platzi-badges",
-            "url": null
+            "title": "Platzi Conf Merch",
+            "build": "HTML - CSS - React - Webpack",
+            "github": "https://github.com/mxrold/Platzi-Conf-Merch-React-Hooks",
+            "url": "https://platzi-conf-merch-d6365.web.app/"
         },
         {
             "id": 3,
+            "title": "Batata Bit",
+            "build": "HTML - CSS",
+            "github": "https://github.com/mxrold/batata-bit",
+            "url": "https://mxrold.github.io/batata-bit/"
+        },
+        {
+            "id": 4,
             "title": "Four card feature section",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/four-card-feature-section",
             "url": "https://mxrold.github.io/four-card-feature-section/"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Social proof section",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/social-proof-landing-page",
             "url": "https://mxrold.github.io/social-proof-landing-page/"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Platzi Conf Hawaii",
             "build": "HTML - Bootstrap",
             "github": "https://github.com/mxrold/landing-page-with-bootstrap",
             "url": "https://mxrold.github.io/landing-page-with-bootstrap/"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Fylo landing page",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/fylo-landing-page",
             "url": "https://mxrold.github.io/fylo-landing-page/"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Validator emails",
             "build": "HTML - CSS - Javascript",
             "github": "https://github.com/mxrold/valitador-emails",
