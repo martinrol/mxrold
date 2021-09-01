@@ -112,6 +112,7 @@
     .Works__item--image {
         width: 54%;
         height: 400px;
+        z-index: 2;
     }
     
     .Works__item--image figure {
@@ -134,7 +135,7 @@
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        z-index: -1;
+        z-index: 1;
     }
 
     @keyframes worm {
@@ -151,5 +152,6 @@
         border-radius: var(--radius2);
         border-top: 8px solid var(--blue3);
         box-shadow: -2px 2px 11px 0 #696363;
+        z-index: 2;
     }
 }

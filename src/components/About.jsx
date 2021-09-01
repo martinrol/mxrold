@@ -21,7 +21,7 @@ const About = () => {
         </div>
         <div>
           <div className="About__me--title-courses">
-            <h3>Certificados</h3>
+            <h3>Certificaciones</h3>
             <a href="https://platzi.com/p/mxrold/" target="_blank" rel="nofollow">
               Ver todos los certificados
             </a>
@@ -30,14 +30,8 @@ const About = () => {
             {
               courses.map((item) => (
                 <div className="About__me--courses-item" key={item.id}>
-                  <a href={item.url} target="_blank" title={item.title}>
-                  <div className='About__me--courses-item-number'>
-                    <div className='About__me--courses-item-number-circle'>
-                      {item.id}
-                    </div>
-                  </div>
-                    <img src={item.image} alt={item.title} loading="lazy"/>
-                  </a>
+                  <span>0{item.id}.</span>
+                  <a href={item.url} target="_blank" title={`Enlace al ${item.name}`}>{item.name}</a>
                 </div>
               ))
             }

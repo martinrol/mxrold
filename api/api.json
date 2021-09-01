@@ -2,50 +2,42 @@
     "courses": [
         {
             "id": 1,
-            "title": "Enlace al curso de React Avanzado",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/react-avanzado.png?alt=media&token=1ec2ad2b-a315-4a1f-843f-3f4d7a783d50",
+            "name": "Curso de React Avanzado",
             "url": "https://platzi.com/p/mxrold/curso/1601-react-avanzado/diploma/detalle/"
         },
         {
             "id": 2,
-            "title": "Enlace al curso de React Native",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/react-native.png?alt=media&token=6aba9097-8e8d-4365-8431-1cd06800f4a4",
+            "name": "Curso de React Native",
             "url": "https://platzi.com/p/mxrold/curso/2043-react-native/diploma/detalle/"
         },
         {
             "id": 3,
-            "title": "Enlace al curso de Frontend Developer",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/frontend-developer.png?alt=media&token=6c10068e-8f11-44f9-a667-5e718484c3d6",
+            "name": "Curso de Frontend Developer",
             "url": "https://platzi.com/p/mxrold/curso/1640-frontend-developer-2019/diploma/detalle/"
         },
         {
             "id": 4,
-            "title": "Enlace al curso de Git y GitHub",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/git.png?alt=media&token=e943de0f-54c2-459a-b823-53057af347a6",
+            "name": "Curso de Git y GitHub",
             "url": "https://platzi.com/p/mxrold/curso/1557-git-github/diploma/detalle/"
         },
         {
             "id": 5,
-            "title": "Enlace al curso de Webpack",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/webpack.png?alt=media&token=3f7b9ae1-7f22-49b2-889f-bd2288a78b2f",
+            "name": "Curso de Webpack",
             "url": "https://platzi.com/p/mxrold/curso/2242-webpack/diploma/detalle/"
         },
         {
             "id": 6,
-            "title": "Enlace al curso de Jest con React",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/jest-react.png?alt=media&token=c7437291-0530-4ba2-b42a-7119112834fd",
+            "name": "Curso de Jest con React",
             "url": "https://platzi.com/p/mxrold/curso/1788-jest/diploma/detalle/"
         },
         {
             "id": 7,
-            "title": "Enlace al curso de Ingenieria de software",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/ingenieria.png?alt=media&token=65006434-2f8d-439b-8d18-5327cadc2183",
+            "name": "Curso de Ingenieria de software",
             "url": "https://platzi.com/p/mxrold/curso/1098-ingenieria/diploma/detalle/"
         },
         {
             "id": 8,
-            "title": "Enlace al curso de Figma",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/figma.png?alt=media&token=202fa32c-fcc9-4350-823d-3ba12f643d76",
+            "name": "Curso de Figma",
             "url": "https://platzi.com/p/mxrold/curso/1961-figma/diploma/detalle/"
         }
     ],
@@ -84,12 +76,12 @@
             "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/kirapp-preview.svg?alt=media&token=96258296-b9ec-4a52-a48f-9183e09457d9",
             "title": "Kirapp",
             "build": "Styled Components - Webpack - Babel - React - PWA - CI/CD",
-            "github": "",
-            "url": ""
+            "github": null,
+            "url": null
         },
         {
             "id": 2,
-            "img": "https://i.ibb.co/VpdQNZL/mxrold-website.png",
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/mxrold-website.png?alt=media&token=24b032ed-16d9-4f57-b9a6-daba04ca8425",
             "title": "mxrold website",
             "build": "CSS - React - Webpack - CI/CD",
             "github": "https://github.com/mxrold/mxrold-website",

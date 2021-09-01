@@ -7,7 +7,7 @@
   min-height: max-content;
   height: 100vh;
   margin: 0 auto;
-  background-color: var(--blue1);
+  background-image: linear-gradient(to bottom, #25458a, #274e97, #2858a3, #2861b0, #286bbd);
 }
 
 .Home__intro {

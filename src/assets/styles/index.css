@@ -78,6 +78,9 @@ button:focus-visible {
     width: 100%;
     min-width: 320px;
     height: 100%;
+    background-image: radial-gradient(#cdd0ff 1px,transparent 0),radial-gradient(#cdd0ff 1px,var(--light) 0);
+    background-size: 40px 40px;
+    background-position: 0 0,20px 20px;
 }
 
 .loader-screen {

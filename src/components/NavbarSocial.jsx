@@ -7,7 +7,7 @@ const NavbarSocial = () => {
     return (
         <div className="Navbar__social">
             <div className='Navbar__social--links'>
-                <SocialMedia />
+                <SocialMedia /> 
             </div>
         </div>
     )
