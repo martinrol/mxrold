@@ -130,10 +130,10 @@
         },
         {
             "id": 2,
-            "title": "Platzi Conf Merch",
-            "build": "HTML - CSS - React - Webpack",
-            "github": "https://github.com/mxrold/Platzi-Conf-Merch-React-Hooks",
-            "url": "https://platzi-conf-merch-d6365.web.app/"
+            "title": "Platzi Badges",
+            "build": "HTML - Bootstrap - React",
+            "github": "https://github.com/mxrold/platzi-badges",
+            "url": null
         },
         {
             "id": 3,
