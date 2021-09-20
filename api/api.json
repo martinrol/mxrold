@@ -55,10 +55,10 @@
             "id": 2,
             "title": "AsterCoin",
             "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/astercoin-mxrold.png?alt=media&token=83483b9e-f970-4037-a8fd-1592be0362bf",
-            "description": "Aplicación movil de criptomonedas que muestra las 100 principales divisas del mercado actual. Permite visualizar los detalles, graficos y precios en los mercados de venta de cada una.",
+            "description": "Aplicación movil de criptomonedas que muestra las 100 principales divisas del mercado actual. Permite visualizar los detalles, graficos y precios en los mercados de venta de cada una. \n Versión descargable en APK disponible",
             "build": "React Native",
             "github": "https://github.com/mxrold/astercoin",
-            "url": null
+            "url": "https://drive.google.com/file/d/1DQ3XCll89ThErIw_fXHfoP1R4e1HObBD/view?usp=sharing"
         },
         {
             "id": 3,
