@@ -33,6 +33,7 @@ const Navbar = () => {
           </div>
           <nav className='Navbar__links-nav'>
             <a href='#acerca'>Acerca</a>
+            <a href='https://peiscof.com' target="_blank">Blog</a>
             <a href='#proyectos'>Proyectos</a>
             <a href='#contacto'>Contacto</a>
             <a className="Navbar__links--cv-button" href={CV_EN} target="_blank">Curriculum</a>

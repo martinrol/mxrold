@@ -62,38 +62,38 @@
         },
         {
             "id": 3,
-            "title": "Petgram",
-            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/petgram-mxrold.png?alt=media&token=27b1fb72-7690-4cfc-b297-81214877bbd9",
-            "description": "Plataforma web para descubrir fotos de mascotas. Puedes registrarte, iniciar sesión, filtrar por categorías y darle like a tus imágenes favoritas.",
-            "build": "Styled Components - Webpack - Babel - React - PWA",
-            "github": "https://github.com/mxrold/petgram",
-            "url": "https://petgram-phi-lovat.vercel.app/"
+            "title": "Peiscof",
+            "image": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/peiscof-preview.png?alt=media&token=91fc988b-264f-4c4d-9b0f-29d73dadf77d",
+            "description": "Encuentra toda la información y actualidad de la tecnología en un solo lugar. Mira las últimas noticias de programación, juegos, Android, Apple, Windows, Linux, tutoriales y mucho más.",
+            "build": "JAMStack",
+            "github": "https://github.com/mxrold/peiscof",
+            "url": "https://peiscof.com"
         }
     ],
     "worksList": [
         {
             "id": 1,
-            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/kirapp-preview.svg?alt=media&token=96258296-b9ec-4a52-a48f-9183e09457d9",
-            "title": "Kirapp",
-            "build": "Styled Components - Webpack - Babel - React - PWA - CI/CD",
-            "github": null,
-            "url": null
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/petgram-mxrold.png?alt=media&token=27b1fb72-7690-4cfc-b297-81214877bbd9",
+            "title": "Petgram",
+            "build": "Styled Components - Webpack - Babel - React - PWA",
+            "github": "https://github.com/mxrold/petgram",
+            "url": "https://petgram-phi-lovat.vercel.app/"
         },
         {
             "id": 2,
+            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/kirapp-preview.svg?alt=media&token=96258296-b9ec-4a52-a48f-9183e09457d9",
+            "title": "Kirapp",
+            "build": "Styled Components - Webpack - Babel - React - PWA - CI/CD",
+            "github": "https://github.com/mxrold/kirapp",
+            "url": "https://mxrold.github.io/kirapp/"
+        },
+        {
+            "id": 3,
             "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/mxrold-website.png?alt=media&token=24b032ed-16d9-4f57-b9a6-daba04ca8425",
             "title": "mxrold website",
             "build": "CSS - React - Webpack - CI/CD",
             "github": "https://github.com/mxrold/mxrold-website",
             "url": "https://mxrold.web.app"
-        },
-        {
-            "id": 3,
-            "img": "https://firebasestorage.googleapis.com/v0/b/mxrold.appspot.com/o/platzi-video-mxrold.png?alt=media&token=845d8079-d068-4497-aea9-da0630dee533",
-            "title": "PlatziVideo",
-            "build": "CSS - React - Redux - Webpack",
-            "github": "https://github.com/mxrold/platzi-video",
-            "url": "https://platzivideo-mxrold.netlify.app/"
         },
         {
             "id": 4,
@@ -125,53 +125,60 @@
             "id": 1,
             "title": "Platzi Conf Merch",
             "build": "HTML - CSS - React - Webpack",
-            "github": "https://github.com/mxrold/Platzi-Conf-Merch-React-Hooks",
+            "github": "https://github.com/mxrold/platzi-video",
             "url": "https://platzi-conf-merch-d6365.web.app/"
         },
         {
             "id": 2,
+            "title": "PlatziVideo",
+            "build": "CSS - React - Redux - Webpack",
+            "github": "https://github.com/mxrold/Platzi-Conf-Merch-React-Hooks",
+            "url": "https://platzivideo-mxrold.netlify.app/"
+        },
+        {
+            "id": 3,
             "title": "Platzi Badges",
             "build": "HTML - Bootstrap - React",
             "github": "https://github.com/mxrold/platzi-badges",
             "url": null
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Batata Bit",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/batata-bit",
             "url": "https://mxrold.github.io/batata-bit/"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Four card feature section",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/four-card-feature-section",
             "url": "https://mxrold.github.io/four-card-feature-section/"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Social proof section",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/social-proof-landing-page",
             "url": "https://mxrold.github.io/social-proof-landing-page/"
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Platzi Conf Hawaii",
             "build": "HTML - Bootstrap",
             "github": "https://github.com/mxrold/landing-page-with-bootstrap",
             "url": "https://mxrold.github.io/landing-page-with-bootstrap/"
         },
         {
-            "id": 7,
+            "id": 8,
             "title": "Fylo landing page",
             "build": "HTML - CSS",
             "github": "https://github.com/mxrold/fylo-landing-page",
             "url": "https://mxrold.github.io/fylo-landing-page/"
         },
         {
-            "id": 8,
+            "id": 9,
             "title": "Validator emails",
             "build": "HTML - CSS - Javascript",
             "github": "https://github.com/mxrold/valitador-emails",
