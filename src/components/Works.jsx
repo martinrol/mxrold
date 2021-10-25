@@ -2,11 +2,10 @@ import React, {  useState} from 'react'
 import FeaturedWorks from './FeaturedWorks'
 import WorksList from './WorksList'
 import TotalWorks from './TotalWorks'
-import { featuredList, worksList } from '../../api/api.json'
 import Vector from '../assets/static/background-works.svg'
 import '../assets/styles/components/Works.css'
 
-const Works = () => {
+const Works = ({ featuredList, worksList, totalWorks }) => {
   const [ addProjects, setAddProjects ] = useState(false)
   const [ showLoader, setShowLoader ] = useState(false)
  
@@ -67,7 +66,7 @@ const Works = () => {
       {
         addProjects === false 
         ? null
-        : <TotalWorks />
+        : <TotalWorks totalWorks={totalWorks} />
       }
 
       {

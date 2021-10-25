@@ -1,10 +1,9 @@
 import React from 'react'
 import TotalWorksList from './TotalWorksList'
-import { totalWorks } from '../../api/api.json'
 import Image from '../assets/static/logo-work-table.png'
 import '../assets/styles/components/TotalWorks.css'
 
-const TotalWorks = () => {
+const TotalWorks = ({ totalWorks }) => {
     return (
         <>  
             <section className="TotalWorks">

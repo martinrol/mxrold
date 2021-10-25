@@ -1,13 +1,11 @@
 import React from 'react'
-import skills from '../../api/skills.json'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3 } from 'react-icons/di'
 import { FaReact } from 'react-icons/fa'
-import { SiJavascript, SiTailwindcss, SiBootstrap, SiStyledComponents } from 'react-icons/si'
-import { courses } from '../../api/api.json'
+import { SiJavascript, SiTailwindcss, SiBootstrap, SiStyledcomponents } from 'react-icons/si'
 import '../assets/styles/components/About.css'
 
-const About = () => {
+const About = ({ skills, courses }) => {
   return (
     <section className="About" id="acerca">
       <div className="About__me">
@@ -62,7 +60,7 @@ const About = () => {
                       <SiJavascript size="28px" title="Logo de JavaScript"/>
                     </span>
                     <span className="svg-six">
-                      <SiStyledComponents size="28px" title="Logo de Styled Components"/>
+                      <SiStyledcomponents size="28px" title="Logo de Styled Components"/>
                     </span>
                     <span className="svg-seven">
                       <FaReact size="28px" title="Logo de React"/>
@@ -76,7 +74,7 @@ const About = () => {
         <div className="About__skills--complement">
           <div className="About__skills--complements-items">
               {
-                skills.skills.map(item => 
+                skills.map(item => 
                   <p key={item.name}>
                     {item.name}
                   </p>
